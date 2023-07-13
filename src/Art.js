@@ -7,7 +7,12 @@ class Art extends React.Component{
         super();
         this.state = {
             arts: [
-
+                {
+                    name: "Güven ve Huzur",
+                    technique: 0,
+                    source: "https://github.com/OnurSefa/profile/assets/12373950/d426ff60-8011-405f-bf8b-4d6d5e6e9ac9",
+                    direction: 0
+                },
                 {
                     name: "Purity",
                     technique: 0,
@@ -519,7 +524,6 @@ class Art extends React.Component{
                     source: "https://user-images.githubusercontent.com/91468534/200664641-53f0e3e1-8c49-47df-a81d-335bac342767.png",
                     direction: 0
                 },
-                
             ]
         }
     }
