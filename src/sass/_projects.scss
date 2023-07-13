@@ -1,0 +1,85 @@
+.projectsHolder{
+    background-color: #CEE0DC;
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    .projectsSpace{
+        width: 100vw;
+        height: 1em;
+    }
+    
+    .projects{
+        width: 96vw;
+        padding-top: 2em;
+        border-radius: 5em;
+        background-color: #EAF1EA;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 2em;
+        .projectsText{
+            padding-top: 2em;
+            padding-bottom: 2em;
+            width: 80vw;
+        }
+        .projectSections{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .projectSection{
+                border-radius: 2em;
+                overflow: hidden;
+                cursor: pointer;
+                display: flex;
+                flex-direction: row;
+                width: 80vw;
+                margin: 1em;
+                position: relative;
+                .projectImageSection{
+                    .projectInstanceImage{
+                        
+                        width: 15vw;
+                        height: 10em;
+                        object-fit: contain;
+                        background-color: #CEE0DC;
+                    }
+                }
+                .projectDescriptionSection{
+                    background-color: #CEE0DC;
+                    height: 10em;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    width: 65vw;
+                    .projectTitle{
+                        font-size: 22px;
+                        height: 2em;
+                        padding-left: 2em;
+                    }
+                    .projectDescription{
+                        height: 8em;
+                        padding-left: 1em;
+                    }
+                
+                }
+            }
+            
+            .projectSection::after {
+                content: "";
+                position: absolute;
+                z-index: 1;
+                bottom: 0;
+                left: 0;
+                pointer-events: none;
+                background-image: linear-gradient(to bottom, rgba(0, 255,255,0), rgba(206, 224, 220, 1) 99%);
+                width: 80vw;
+                height: 4em;
+            }
+        }
+    }
+}

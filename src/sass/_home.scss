@@ -1,0 +1,42 @@
+
+.home{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 93vh;
+    background-color: #CEE0DC;
+    .homeLeft{
+        margin: 1.5em;
+        border-radius: 2em;
+        width: 20em;
+        overflow: hidden;
+        background-color: #FF9505;
+        .profileImage{
+            .profileImageImage{
+                padding: 1.5em;
+                width: 17em;
+                object-fit: contain;
+                border-radius: 2.8em;
+            }
+        }
+        .contactHolder{
+            width: 17em;
+            padding: 1.5em;
+        }
+    }
+    .homeRight{
+        background-color: #EAF1EA;
+        width: 65em;
+        margin: 1.5em;
+        border-radius: 2em;
+        .homeRightText{
+            display: flex;
+            flex-direction: column;
+            padding: 10%;
+            padding-top: 2%;
+            .homeRightParagraph{
+                margin-top: 2%;
+            }
+        }
+    }
+}

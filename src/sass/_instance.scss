@@ -1,0 +1,49 @@
+.instanceBackground{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #CEE0DC;
+
+    .instance{
+        padding-bottom: 3em;
+        background-color: #EAF1EA;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 60vw;
+        margin-top: 2em;
+        padding-left: 12vw;
+        padding-right: 12vw;
+        margin-bottom: 3em;
+        border-radius: 3em;
+        .instanceHeader{
+            margin-top: 1em;
+            font-size: 35px;
+            margin-bottom: 1em;
+        }
+        .instanceDescription{
+            margin-top: 0.7em;
+            width: 100%;
+            font-size: 18px;
+            margin-bottom: 0.7em;
+        }
+        .instanceImage{
+            margin-top: 0.7em;
+            margin-bottom: 0.7em;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            .instanceImageImage{
+                max-width: 35em;
+                max-height: 35em;
+                object-fit: contain;
+            }
+            .instanceImageDescription{
+                max-width: 50em;
+            }
+        }
+    }
+}
