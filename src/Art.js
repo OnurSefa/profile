@@ -289,7 +289,7 @@ class Art extends React.Component{
                     name: "Tasbih",
                     technique: 1,
                     source: "https://user-images.githubusercontent.com/91468534/200664503-10a4cff7-92a5-45db-aafc-0d603a8c94d7.png",
-                    direction: 0
+                    direction: 1
                 },
                 {
                     name: "My old Friend",
@@ -379,7 +379,7 @@ class Art extends React.Component{
                     name: "The Street",
                     technique: 1,
                     source: "https://user-images.githubusercontent.com/91468534/200664518-9ace0c6b-a2b5-4f39-aa54-649d1f255978.png",
-                    direction: 0
+                    direction: 1
                 },
                 {
                     name: "Tree Head",
@@ -433,7 +433,7 @@ class Art extends React.Component{
                     name: "My Room",
                     technique: 1,
                     source: "https://user-images.githubusercontent.com/91468534/200664551-1ba804c7-acea-4764-a70c-e0a88443e40a.png",
-                    direction: 1
+                    direction: 0
                 },
                 {
                     name: "Savor",
@@ -526,19 +526,20 @@ class Art extends React.Component{
 
     popArt(art){
         let techniques =         
-        ["oil on canvas", 
-        "ink on paper", 
-        "acrylic on canvas", 
-        "acrylic on paper", 
-        "water color on paper",
-        "artificial intelligence",
-        "digital painting",
-        "pencil"
-    ]
+        [
+            "oil on canvas", 
+            "ink on paper", 
+            "acrylic on canvas", 
+            "acrylic on paper", 
+            "water color on paper",
+            "artificial intelligence",
+            "digital painting",
+            "pencil"
+        ]
 
         Swal.fire({
             showConfirmButton: false,
-            html: "<div class='popArt'><img class='popArtImage' src='"+art.source+"'></img><b class='popArtTitle'>"+art.name+"</b> <div class='popArtText'> "+techniques[art.technique]+" </div> </div>"
+            html: "<div class='popArt'><img class='popArtImage"+art.direction+"' src='"+art.source+"'></img><b class='popArtTitle'>"+art.name+"</b> <div class='popArtText'> "+techniques[art.technique]+" </div> </div>"
         })
     }
 

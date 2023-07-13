@@ -75,11 +75,31 @@ body {
   margin-top: 2%;
 }
 
-.popArt .popArtImage {
+.popArt .popArtImage0 {
   width: 25em;
   height: 25em;
   object-fit: contain;
+  transform: rotate(0deg);
 }
+.popArt .popArtImage1 {
+  width: 25em;
+  height: 25em;
+  object-fit: contain;
+  transform: rotate(90deg);
+}
+.popArt .popArtImage2 {
+  width: 25em;
+  height: 25em;
+  object-fit: contain;
+  transform: rotate(180deg);
+}
+.popArt .popArtImage3 {
+  width: 25em;
+  height: 25em;
+  object-fit: contain;
+  transform: rotate(270deg);
+}
+
 .art {
   width: 100vw;
   background-color: #CEE0DC;

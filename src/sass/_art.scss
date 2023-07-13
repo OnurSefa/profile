@@ -1,15 +1,28 @@
 
 .popArt{
-    .popArtImage{
+    .popArtImage0{
         width: 25em;
         height: 25em;
         object-fit: contain;
+        transform: rotate(0deg);
     }
-    .popArtTitle{
-
+    .popArtImage1{
+        width: 25em;
+        height: 25em;
+        object-fit: contain;
+        transform: rotate(90deg);
     }
-    .popArtText{
-
+    .popArtImage2{
+        width: 25em;
+        height: 25em;
+        object-fit: contain;
+        transform: rotate(180deg);
+    }
+    .popArtImage3{
+        width: 25em;
+        height: 25em;
+        object-fit: contain;
+        transform: rotate(270deg);
     }
 }
 
