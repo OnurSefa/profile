@@ -12,12 +12,12 @@ class Projects extends React.Component{
                     "redirect": "/projects/generatingart",
                     "image": "https://user-images.githubusercontent.com/12373950/202875753-61866f25-7cfa-45c1-b1db-3a6545b8379f.png"
                 },
-                {
-                    "title": "Address Line Detection",
-                    "description": "I have adapted DenseDepth methodology to extract address lines from invoice images.",
-                    "redirect": "/projects/address",
-                    "image": "https://user-images.githubusercontent.com/12373950/202281280-902bd6b6-d1ed-4d98-b547-dbbcb78c68a3.png"
-                },
+                // {
+                //     "title": "Address Line Detection",
+                //     "description": "I have adapted DenseDepth methodology to extract address lines from invoice images.",
+                //     "redirect": "/projects/address",
+                //     "image": "https://user-images.githubusercontent.com/12373950/202281280-902bd6b6-d1ed-4d98-b547-dbbcb78c68a3.png"
+                // },
                 {
                     "title": "Tax Id Field Extraction from Invoices",
                     "description": "Tax Id defines the related tax office, it is crucial to extract this value correctly. I have used autoencoders, RNN, attention, and candidate embedding mechanism.",
