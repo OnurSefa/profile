@@ -19,7 +19,7 @@ class Projects extends React.Component{
                 //     "image": "https://user-images.githubusercontent.com/12373950/202281280-902bd6b6-d1ed-4d98-b547-dbbcb78c68a3.png"
                 // },
                 {
-                    "title": "Tax Id Field Extraction from Invoices",
+                    "title": "Tax Office Id Field Extraction from Receipts and Invoices",
                     "description": "Tax Id defines the related tax office, it is crucial to extract this value correctly. I have used autoencoders, RNN, attention, and candidate embedding mechanism.",
                     "redirect": "/projects/taxid",
                     "image": "https://user-images.githubusercontent.com/12373950/202869526-f48e8411-f27b-4a93-b72a-44508d19133c.png"
