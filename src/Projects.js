@@ -29,12 +29,6 @@ class Projects extends React.Component{
                     "description": "The project includes document retriever and document reader modules to detect correct paragraphs and then detect correct phrases according to question sentence.",
                     "redirect": "/projects/questionanswer",
                     "image": "https://user-images.githubusercontent.com/12373950/202878698-f2145c0f-7b53-435d-8603-5250ec9330c9.png"
-                },             
-                {
-                    "title": "Credit Card Number Extraction from Expense Documents",
-                    "description": "Repayment of some invoices can done by the credit card information. Finding this information accuratly helps companies.",
-                    "redirect": "/projects/creditcard",
-                    "image": "https://user-images.githubusercontent.com/12373950/202870647-3893771d-c014-4692-b72a-935cdda328a4.png"
                 },
                 {
                     "title": "Data Visualization using PCA and t-SNE",
@@ -43,10 +37,16 @@ class Projects extends React.Component{
                     "image": "https://user-images.githubusercontent.com/12373950/202245488-d3e69941-4c52-44d3-98e4-cdc7478bae65.png"
                 },
                 {
-                    "title": "Payment Type Detection of Invoices",
+                    "title": "Detection of Expense Documents' Payment Type",
                     "description": "Detecting if the payment type is cash or credit card is essential for some companies.",
                     "redirect": "/projects/paymenttype",
                     "image": "https://user-images.githubusercontent.com/12373950/202870359-1f672a85-319f-4103-ba5e-82c7875592c5.png"
+                },             
+                {
+                    "title": "Credit Card Number Extraction from Expense Documents",
+                    "description": "Repayment of some invoices can done by the credit card information. Finding this information accuratly helps companies.",
+                    "redirect": "/projects/creditcard",
+                    "image": "https://user-images.githubusercontent.com/12373950/202870647-3893771d-c014-4692-b72a-935cdda328a4.png"
                 },
                 {
                     "title": "Inspectation of Outlier Detection Methodologies",
