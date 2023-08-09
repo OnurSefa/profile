@@ -23,15 +23,15 @@ class Project extends React.Component{
                     <div className='instanceImageDescription'>Example autoencoder structure  <a href="https://www.researchgate.net/publication/317559243_Deep_Autoencoder_Based_Speech_Features_for_Improved_Dysarthric_Speech_Recognition">Researchgate Website</a></div>
                 </div>
                 <div className='instanceDescription'>
-                &emsp;The outcome of this project is being able to detect if the expense is paid using a company credit card. Firstly, 
-                the model classifies the expense document into 3 classes according to the payment type. The classes are “credit card”, 
-                “cash”, and “other”. The model gets word information from OCR API and creates document embeddings to be used in the 
-                classification step. In the second step, the model finds candidates from the documents classified as “credit card” 
-                using simple regex operations. Then, each candidate is assigned to score which shows the probability of being a credit 
-                card number. The model uses an autoencoder structure to achieve this. Candidate embedding is encoded and then decoded. 
-                If the cosine similarity score between the input vector and decoded vector is quite similar, we understand that the 
-                candidate’s possibility of being the wanted credit card number is greater than the candidates that have lower similarity 
-                scores.
+                &emsp;The outcome of this project is being able to detect if the expense is paid using a company credit card. If the 
+                <a href='/projects/payment'> Detection of Expense Document Payment Types</a> model classifies the document as 
+                "credit card", this model is used to extract the credit card number from the expense document. The model finds 
+                candidates using simple regex operations which can be assigned as a credit card number without any context. 
+                The model gets word information from OCR API and creates candidate embeddings. Then, each candidate is assigned a 
+                score that shows the probability of being a credit card number. The model uses an autoencoder structure to achieve this. 
+                Candidate embedding is encoded and then decoded. If the cosine similarity score between the input vector and decoded 
+                vector is quite similar, we understand that the candidate’s possibility of being the wanted credit card number is 
+                greater than the candidates that have lower similarity scores.
                 </div>
                 <div className='instanceImage'>
                     <img className='instanceImageImage' src='https://user-images.githubusercontent.com/12373950/202870647-3893771d-c014-4692-b72a-935cdda328a4.png' alt='project image'></img>

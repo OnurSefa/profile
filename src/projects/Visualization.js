@@ -11,7 +11,7 @@ class Project extends React.Component{
         return <div className="instanceBackground">
             <div className='instance'>
                 <div className='instanceHeader'>
-                    <b>Data Visualization using PCA</b>
+                    <b>Data Visualization using PCA and t-SNE</b>
                 </div>
                 <div className='instanceDescription'>
                 &emsp;10 example images for every class is extracted from the MNIST train dataset. The Figure 1
