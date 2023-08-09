@@ -10,7 +10,7 @@ class Project extends React.Component{
         return <div className="instanceBackground">
             <div className='instance'>
                 <div className='instanceHeader'>
-                    <b>Tax Office Id Field Extraction from Receipts and Invoices</b>
+                    <b>Tax Office Id Field Extraction from Expense Documents</b>
                 </div>
                 <div className='instanceDescription'>
                 &emsp;I have developed this project in my company. I can not specify some details because of the privacy issues. 
@@ -35,7 +35,7 @@ class Project extends React.Component{
                 </div>
                 <div className='instanceImage'>
                     <img className='instanceImageImage' src='https://user-images.githubusercontent.com/12373950/202869526-f48e8411-f27b-4a93-b72a-44508d19133c.png' alt='project image'></img>
-                    <div className='instanceImageDescription'>Example output (placeholder)</div>
+                    <div className='instanceImageDescription'>Example input and output (placeholder)</div>
                 </div>
             </div>
         </div>

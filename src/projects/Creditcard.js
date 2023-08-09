@@ -11,26 +11,31 @@ class Project extends React.Component{
         return <div className="instanceBackground">
             <div className='instance'>
                 <div className='instanceHeader'>
-                    <b>Credit Card Field Extraction from Expenses</b>
+                    <b>Credit Card Number Extraction from Expense Documents</b>
                 </div>
                 <div className='instanceDescription'>
-                &emsp;I have developed this project in my company. I can not specify some details because of privacy issues.
-                </div>
-                <div className='instanceDescription'>
-                &emsp;This project decides whether the credit card related to the expense is provided by the company or not. If last 4 number of the credit card is included in the expense image, the model detects it.
-                After getting word information from Azure Read Analyz OCR API, algorithm detects the candidate numbers. I wrote an algorithm to detect the neighbors and candidates are embedded with their neighbors. Word embedding is established by Fasttext model.
-                Autoencoder method tries to learn the similarity pattern of the credit card numbers. 
+                &emsp;I have developed this project in my company. I can not specify some details because of the privacy issues. 
+                Examples are scrapped from the web, and their purpose is not to show the exact data or the methodology but to demonstrate 
+                the project from some perspective.
                 </div>
                 <div className='instanceImage'>
                     <img className='instanceImageImage' src='https://www.researchgate.net/profile/Chitralekha-Bhat/publication/317559243/figure/fig2/AS:531269123805186@1503675837486/Deep-Autoencoder-DAE.png' alt='project image'></img>
-                    <div className='instanceImageDescription'>Example autoencoder structure</div>
+                    <div className='instanceImageDescription'>Example autoencoder structure  <a href="https://www.researchgate.net/publication/317559243_Deep_Autoencoder_Based_Speech_Features_for_Improved_Dysarthric_Speech_Recognition">Researchgate Website</a></div>
                 </div>
                 <div className='instanceDescription'>
-                &emsp;If the reconstruction of the embedding is quite similar with the embedding itself, decided by cosine similarity, model assigns this instance as a credit card number.
+                &emsp;The outcome of this project is being able to detect if the expense is paid using a company credit card. Firstly, 
+                the model classifies the expense document into 3 classes according to the payment type. The classes are “credit card”, 
+                “cash”, and “other”. The model gets word information from OCR API and creates document embeddings to be used in the 
+                classification step. In the second step, the model finds candidates from the documents classified as “credit card” 
+                using simple regex operations. Then, each candidate is assigned to score which shows the probability of being a credit 
+                card number. The model uses an autoencoder structure to achieve this. Candidate embedding is encoded and then decoded. 
+                If the cosine similarity score between the input vector and decoded vector is quite similar, we understand that the 
+                candidate’s possibility of being the wanted credit card number is greater than the candidates that have lower similarity 
+                scores.
                 </div>
                 <div className='instanceImage'>
                     <img className='instanceImageImage' src='https://user-images.githubusercontent.com/12373950/202870647-3893771d-c014-4692-b72a-935cdda328a4.png' alt='project image'></img>
-                    <div className='instanceImageDescription'>Example input and output</div>
+                    <div className='instanceImageDescription'>Example input and output (placeholder)</div>
                 </div>
                 
             </div>

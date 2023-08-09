@@ -19,7 +19,7 @@ class Projects extends React.Component{
                 //     "image": "https://user-images.githubusercontent.com/12373950/202281280-902bd6b6-d1ed-4d98-b547-dbbcb78c68a3.png"
                 // },
                 {
-                    "title": "Tax Office Id Field Extraction from Receipts and Invoices",
+                    "title": "Tax Office Id Field Extraction from Expense Documents",
                     "description": "Tax Id defines the related tax office, it is crucial to extract this value correctly. I have used autoencoders, RNN, attention, and candidate embedding mechanism.",
                     "redirect": "/projects/taxid",
                     "image": "https://user-images.githubusercontent.com/12373950/202869526-f48e8411-f27b-4a93-b72a-44508d19133c.png"
@@ -31,7 +31,7 @@ class Projects extends React.Component{
                     "image": "https://user-images.githubusercontent.com/12373950/202878698-f2145c0f-7b53-435d-8603-5250ec9330c9.png"
                 },             
                 {
-                    "title": "Credit Card Field Extraction from Inovices",
+                    "title": "Credit Card Number Extraction from Expense Documents",
                     "description": "Repayment of some invoices can done by the credit card information. Finding this information accuratly helps companies.",
                     "redirect": "/projects/creditcard",
                     "image": "https://user-images.githubusercontent.com/12373950/202870647-3893771d-c014-4692-b72a-935cdda328a4.png"
