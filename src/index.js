@@ -36,6 +36,7 @@ import Vd from "./projects/Vd";
 import Visualization from "./projects/Visualization";
 import Vkn from "./projects/Vkn";
 import Watchdog from "./projects/Watchdog";
+import Photos from "./Photos";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -47,6 +48,7 @@ root.render(
       <Route path="/art" element={<Art></Art>} />
       <Route path='/writings' element={<Writings></Writings>} />
       <Route path="/projects" element={<Projects></Projects>}/>
+      <Route path="/photos" element={<Photos></Photos>}/>
 
       <Route path="/projects/outlier" element={<Outlier></Outlier>}></Route>
       <Route path="/projects/decisiontree" element={<Decision></Decision>}></Route>

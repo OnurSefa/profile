@@ -27,6 +27,13 @@ function Navigation() {
                             </div>
                         </NavLink>
                     </div>
+                    <div className="navbarPage">
+                        <NavLink className="navbarProfile" to='/photos'>
+                            <div className="navbarProfileInner">
+                                Photos
+                            </div>
+                        </NavLink>
+                    </div>
                     {/* <div className="navbarPage">
                         <NavLink className="navbarProfile" to="/writings">
                             <div className="navbarProfileInner">

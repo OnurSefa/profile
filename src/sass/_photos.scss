@@ -1,0 +1,49 @@
+
+
+.popPhoto{
+    .popPhotoImage{
+        height: 35em;
+        object-fit: contain;
+        transform: rotate(0deg);
+    }
+}
+
+
+.photo{
+    width: 100vw;
+    background-color: #CEE0DC;
+    display: flex;
+    flex-direction: column; 
+    .photoImages{
+        margin: 3vw;
+        padding: 2vw;
+        border-radius: 2em;
+        width: 90vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-color: #022B3A;
+        .photoInstance{
+            padding: 1em;
+            margin: 1em;
+            background-image: radial-gradient(rgba(2, 43, 58, 1) 0%, rgba(206, 224, 220, 1) 100%);
+            .photoInstanceImage{
+                background-color: #022B3A;
+                // background-image: radial-gradient(rgba(206, 224, 220, 1) 0%, rgba(2, 43, 58, 1) 100%);
+                width: 36em;
+                height: 24em;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                .photoInstanceImageImage{
+                    cursor: pointer;
+                    width: 36em;
+                    height: 24em;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+}
