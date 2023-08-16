@@ -61,7 +61,7 @@ class Projects extends React.Component{
                     "image": "https://user-images.githubusercontent.com/12373950/202870783-1e5bb1d3-35af-4efe-91de-ebc39e5bb66b.png"
                 },
                 {
-                    "title": "Invoice Type Detector",
+                    "title": "Expense Document Classification",
                     "description": "There are several invoice types and detection of them highly affects posterior models.",
                     "redirect": "/projects/invoicetype",
                     "image": "https://user-images.githubusercontent.com/12373950/202871487-90a00df6-0dd0-49b4-a8d0-a436955a43ee.png"
