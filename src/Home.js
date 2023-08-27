@@ -44,26 +44,52 @@ function Home() {
             <div className="homeRight">
                 <div className="homeRightText">
                     <div className="homeRightParagraph">
-                    &emsp;I am Onur Sefa Ozcibik. I graduated from Bogazici University Computer Engineering, Turkey’s one of the most qualified universities in the field. The experience I received was precious. Even though I am only 24, I feel a bright future awaits me.
+                    &emsp;I am Onur Sefa Ozcibik, a graduate of Bogazici University with a Bachelor of Science (B.S.) in the Department 
+                    of Computer Engineering, which I completed in June 2022. Bogazici University stands as one of Turkey's foremost 
+                    institutions in this field, and the experiences I gained during my time there were invaluable. I firmly believe that 
+                    a bright future lies ahead.
                     </div>
                     <div className="homeRightParagraph">
-                    &emsp;My research interests are artificial intelligence, computer vision, and natural language processing. I love to deal with deep learning projects, especially challenging ones. I generally propose and build deep learning models for real-world scenarios.
+                    &emsp;My academic pursuits align with my passion for artificial intelligence, computer vision, and natural language 
+                    processing. I thrive on tackling intricate deep learning projects, especially those that present a challenge. 
+                    My forte lies in proposing and constructing deep learning models tailored for real-world applications.
                     </div>
                     <div className="homeRightParagraph">
-                    &emsp;I previously attended CoLoRs AI Lab and NLP Lab at Bogazici University. Continuous searching, reading, and implementing state-of-the-art papers
-                    enabled me to adapt several different approaches to my current projects. I am eager to find opportunities to develop this skill further.
+                    &emsp;Prior to this, I actively participated in the NLP Lab and had the privilege of auditing the CoLoRs AI Lab at 
+                    Bogazici University. This immersive experience allowed me to continually explore, read, and implement cutting-edge 
+                    research papers, enabling me to adapt various approaches to my ongoing projects. I am eager to seize further 
+                    opportunities for skill development in this ever-evolving field.
                     </div>
                     <div className="homeRightParagraph">
-                    &emsp;My interest in art started in high school but never ended. I do oil painting in my flat. To do so, I have organized the place to obtain a 
-                    studio-like environment. Expressing my feelings through the canvas and paint mesmerizes me. I like to share my artwork with people. 
-                    Also, they can be viewed through this <a href="/art">platform</a> and my <a href="https://www.instagram.com/artvoke/">Instagram page</a>.
+                    &emsp;Beyond the realm of technology, my interests extend to the world of art. My journey began in high school and 
+                    has continued to flourish. Within the confines of my apartment, I have curated a studio-like environment for oil 
+                    painting, a medium through which I find peace in expressing my emotions on canvas. Sharing my artwork with others 
+                    brings me great joy, and you can view my creations both on this <a href="/art">platform</a> and through 
+                    my <a href="https://www.instagram.com/artvoke/">Instagram page</a>.
                     </div>
                     <div className="homeRightParagraph">
-                    &emsp;I love to watch movies from different genres. I think I was born to listen to music and my favorite genres are metal, rock, progressive rock, techno, house,
-                    and classical piano. I love to write stories and essays in Turkish but I can not find leisure time for this activity anymore. In summer times, I love traveling, biking, and camping.
+                    &emsp;Art and technology aside, my life finds its rhythm in the appreciation of various forms of storytelling and 
+                    artistic expression. In cinema, I gravitate towards mind-bending classics such as 'Memento,' 'Predestination,' 
+                    'Mr. Nobody,' and the thought-provoking 'Fight Club.'
                     </div>
                     <div className="homeRightParagraph">
-                    &emsp;You can contact me anytime about deep learning, art, and my projects.
+                    &emsp;My life is serenaded by a diverse musical tapestry. From the thunderous riffs of metal and rock to the 
+                    entrancing beats of techno and house, and the timeless elegance of classical piano, music resonates deeply 
+                    within my soul.
+                    </div>
+                    <div className="homeRightParagraph">
+                    &emsp;While the demands of life have afforded me less leisure time for writing, my love for the craft remains 
+                    unwavering, especially when it comes to composing stories and essays in my native Turkish.
+                    </div>
+                    <div className="homeRightParagraph">
+                    &emsp;As summer rolls around, I embrace adventure wholeheartedly. An enthusiastic traveler, I embark on journeys 
+                    that take me far and wide. Long bike rides and passionate camping trips are my preferred modes of exploration. 
+                    More recently, I've discovered a newfound passion in photography, allowing me to capture the beauty and fleeting 
+                    moments of life, preserving them in time to share with others.
+                    </div>
+                    <div className="homeRightParagraph">
+                    &emsp;Feel free to reach out to me anytime, whether it's about deep learning, art, or any other topic that 
+                    piques your interest. I'm always open to meaningful conversations and connections.
                     </div>
                     <div>
                     &emsp;<a href="https://github.com/OnurSefa/profile/blob/main/Resume_OnurSefa_Ozcibik.pdf">My Resume</a>
