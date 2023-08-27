@@ -10,7 +10,7 @@ class Project extends React.Component{
         return <div className="instanceBackground">
             <div className='instance'>
                 <div className='instanceHeader'>
-                    <b>Tax Office Id Field Extraction from Expense Documents</b>
+                    <b>Tax Office ID Extraction from Expense Documents</b>
                 </div>
                 <div className='instanceDescription'>
                 &emsp;I have developed this project in my company. I can not specify some details because of the privacy issues. 
