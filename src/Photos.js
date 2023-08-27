@@ -8,6 +8,41 @@ class Photos extends React.Component{
         this.state = {
             photos: [
                 {
+                    date: "2023-08-26",
+                    location: "Tokat/Turkey",
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/11893e40-22b3-4677-aa94-3826d11be9eb",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/582b3b08-aaa9-49ed-bdf8-260b585a6865",
+                    name: "IMG_6624"
+                },
+                {
+                    date: "2023-08-26",
+                    location: "Tokat/Turkey",
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/6efbf510-5534-4fbb-863f-218caaef97f4",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/9072dc5d-96fb-4279-87fd-95bb71b80001",
+                    name: "IMG_6607"
+                },
+                {
+                    date: "2023-08-21",
+                    location: "Tokat/Turkey",
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/166177cd-aa03-47ec-bb81-04e32123d332",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/33e08f3f-a9ae-41b9-a173-dd466ce81714",
+                    name: "IMG_6251"
+                },
+                {
+                    date: "2023-08-21",
+                    location: "Tokat/Turkey",
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/44927af6-1e24-4105-abf5-7c454ae38aba",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/bd711880-8592-47b8-9b1f-4a9ee4341806",
+                    name: "IMG_6153"
+                },
+                {
+                    date: "2023-08-15",
+                    location: "Istanbul/Turkey",
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/9f65bef6-1c67-42f1-a948-45bb13c4ac7a",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/cba4fff7-3e97-412d-aa4d-25ae6baa4416",
+                    name: "IMG_6090"
+                },
+                {
                     date: "2023-08-13",
                     location: "Istanbul/Turkey",
                     lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/ff13b024-a6e9-4acf-b69a-5c571055b81b",
