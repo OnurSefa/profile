@@ -8,15 +8,22 @@ class Photos extends React.Component{
         this.state = {
             photos: [
                 {
+                    date: "2023-08-30",
+                    location: "Kemaliye/Erzincan/Turkey",
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/4558654b-efac-4162-93af-2489d5deb666",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/70657b8a-3c5f-457b-a684-c94e1eea310b",
+                    name: "IMG_6776"
+                },
+                {
                     date: "2023-08-26",
-                    location: "Tokat/Turkey",
+                    location: "Zile/Tokat/Turkey",
                     lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/11893e40-22b3-4677-aa94-3826d11be9eb",
                     highAddress: "https://github.com/OnurSefa/profile/assets/12373950/582b3b08-aaa9-49ed-bdf8-260b585a6865",
                     name: "IMG_6624"
                 },
                 {
                     date: "2023-08-26",
-                    location: "Tokat/Turkey",
+                    location: "Zile/Tokat/Turkey",
                     lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/6efbf510-5534-4fbb-863f-218caaef97f4",
                     highAddress: "https://github.com/OnurSefa/profile/assets/12373950/9072dc5d-96fb-4279-87fd-95bb71b80001",
                     name: "IMG_6607"
@@ -30,7 +37,7 @@ class Photos extends React.Component{
                 },
                 {
                     date: "2023-08-21",
-                    location: "Tokat/Turkey",
+                    location: "Zile/Tokat/Turkey",
                     lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/44927af6-1e24-4105-abf5-7c454ae38aba",
                     highAddress: "https://github.com/OnurSefa/profile/assets/12373950/bd711880-8592-47b8-9b1f-4a9ee4341806",
                     name: "IMG_6153"
