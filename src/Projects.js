@@ -66,12 +66,12 @@ class Projects extends React.Component{
                     "redirect": "/projects/invoicetype",
                     "image": "https://user-images.githubusercontent.com/12373950/202871487-90a00df6-0dd0-49b4-a8d0-a436955a43ee.png"
                 },
-                {
-                    "title": "Variable Minimization using Bisection Method and Steepest Descent Method",
-                    "description": "Two methods are implemented to detect minimum point given the related functions.",
-                    "redirect": "/projects/variableminimization",
-                    "image": "https://user-images.githubusercontent.com/12373950/202872372-a525dc53-7129-49d2-84e8-3bcf368a8ed7.png"
-                },
+                // {
+                //     "title": "Variable Minimization using Bisection Method and Steepest Descent Method",
+                //     "description": "Two methods are implemented to detect minimum point given the related functions.",
+                //     "redirect": "/projects/variableminimization",
+                //     "image": "https://user-images.githubusercontent.com/12373950/202872372-a525dc53-7129-49d2-84e8-3bcf368a8ed7.png"
+                // },
                 {
                     "title": "Global Maxima Point Detector",
                     "description": "Global maxima point detection methods and examples are investigated and implemented.",
