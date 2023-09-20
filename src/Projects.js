@@ -78,12 +78,12 @@ class Projects extends React.Component{
                     "redirect": "/projects/globalmaxima",
                     "image": "https://user-images.githubusercontent.com/12373950/202873622-d7b051aa-aedb-4fff-a10e-8118b89152c7.png"
                 },
-                {
-                    "title": "Decision Tree",
-                    "description": "I have implemented a decision tree algorithm that classifies points lie on a plane. Aim of the project was to visualize results of this algorithm in different stiuations and show when this algorithm is applicable and when it is not.",
-                    "redirect": "/projects/decisiontree",
-                    "image": "https://user-images.githubusercontent.com/12373950/202244829-a0b8a47e-395c-4dc9-9aa5-c9e8bacd048d.png"
-                },
+                // {
+                //     "title": "Decision Tree",
+                //     "description": "I have implemented a decision tree algorithm that classifies points lie on a plane. Aim of the project was to visualize results of this algorithm in different stiuations and show when this algorithm is applicable and when it is not.",
+                //     "redirect": "/projects/decisiontree",
+                //     "image": "https://user-images.githubusercontent.com/12373950/202244829-a0b8a47e-395c-4dc9-9aa5-c9e8bacd048d.png"
+                // },
                 // {
                 //     "title": "Robot Localization Logic using Prolog",
                 //     "description": "",
