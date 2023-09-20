@@ -1,8 +1,10 @@
 
 body{
     margin: 0;
+    font-family: 'prompt';
 }
 
+@import "_fonts";
 @import "./navbar";
 @import "./home";
 @import "./art";

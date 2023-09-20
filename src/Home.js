@@ -35,7 +35,7 @@ function Home() {
                                 <b>Address</b>
                             </div>
                             <div className="contactDirection">
-                                Rumeli Hisari District Kore Okulalti Street Sariyer/Istanbul 34470 Turkey
+                                Esentepe District, Zincirlidere Street, Sisli/Istanbul, 34394, Turkey
                             </div>
                         </div>
                     </div>

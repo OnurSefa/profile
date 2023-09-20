@@ -17,7 +17,7 @@ class Project extends React.Component{
                 &emsp;This project was my graduation project which lasted for two semesters. I have worked with my colleague.
                 </div>
                 <div className='instanceDescription'>
-                &emsp;<b>Introduction:</b>Our purpose was to find the best possible way to generate art images with multiple 
+                &emsp;<b>Introduction:</b> Our purpose was to find the best possible way to generate art images with multiple 
                 prompts. We were aware of the current methods following the same goal. Also, we presented state-of-the-art papers 
                 and their work mechanisms. Pros and cons of the described methods were stated to give some intuition about the outcomes 
                 of the models. We inspected the needs of the field and prepared suitable solutions. This blog explains our system which 
@@ -93,7 +93,7 @@ class Project extends React.Component{
                     <div className='instanceImageDescription'>VQGAN+CLIP</div>
                 </div>
                 <div className='instanceDescription'>
-                &emsp;<b>VQGAN+CLIP:</b>This mechanism uses VQGAN to generate images and CLIP to capture the meaning of them. After every 
+                &emsp;<b>VQGAN+CLIP:</b> This mechanism uses VQGAN to generate images and CLIP to capture the meaning of them. After every 
                 iteration, CLIP creates a loss value and VQGAN tries to achieve better results. After several hundreds of iterations, 
                 the output image tends to represent the requested meanings. On the other hand, because of the broad range spectrum of 
                 the domains, outputs are not much realistic. But, realism is not an obligatory condition for our case.
@@ -171,7 +171,7 @@ class Project extends React.Component{
                     <div className='instanceImageDescription'>Final Result for the text prompts: "Sky Palace", "black sun", "birds"</div>
                 </div>
                 <div className='instanceDescription'>
-                &emsp;<b>Our Web Application:</b>We have designed a system that enables users to define the input text prompts and 
+                &emsp;<b>Our Web Application:</b> We have designed a system that enables users to define the input text prompts and 
                 coordinates from an interactive user interface. The web application includes a “home” page and a “create” page. The 
                 “home” page shows randomly chosen 20 image pairs formed of a text prompt that defines the background, left, and right 
                 sides of the image, the result of our method, and finally the result of the VQGAN-CLIP method. When a user clicks on 
