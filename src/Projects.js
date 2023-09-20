@@ -54,12 +54,12 @@ class Projects extends React.Component{
                     "redirect": "/projects/outlier",
                     "image": "https://user-images.githubusercontent.com/12373950/202242561-d6078a8b-5c2e-4f5f-84a9-c0d38c2fd6e7.png"
                 },
-                {
-                    "title": "Tax Office Detection from Invoices",
-                    "description": "Detection of Tax Office names from invoices. This field is crucial for accounting.",
-                    "redirect": "/projects/taxoffice",
-                    "image": "https://user-images.githubusercontent.com/12373950/202870783-1e5bb1d3-35af-4efe-91de-ebc39e5bb66b.png"
-                },
+                // {
+                //     "title": "Tax Office Detection from Invoices",
+                //     "description": "Detection of Tax Office names from invoices. This field is crucial for accounting.",
+                //     "redirect": "/projects/taxoffice",
+                //     "image": "https://user-images.githubusercontent.com/12373950/202870783-1e5bb1d3-35af-4efe-91de-ebc39e5bb66b.png"
+                // },
                 {
                     "title": "Expense Document Classification",
                     "description": "There are several invoice types and detection of them highly affects posterior models.",
