@@ -8,193 +8,139 @@ class Photos extends React.Component{
         this.state = {
             photos: [
                 {
-                    date: "2023-08-30",
-                    location: "Kemaliye/Erzincan/Turkey",
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/4558654b-efac-4162-93af-2489d5deb666",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/70657b8a-3c5f-457b-a684-c94e1eea310b",
-                    name: "IMG_6776"
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/1eb6e080-7661-44bb-844e-e85dd6595f42",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/53460440-6c97-410b-a6cb-8e9c93a00c22",
+                    name: "IMG_4990-2"
                 },
                 {
-                    date: "2023-08-26",
-                    location: "Zile/Tokat/Turkey",
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/11893e40-22b3-4677-aa94-3826d11be9eb",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/582b3b08-aaa9-49ed-bdf8-260b585a6865",
-                    name: "IMG_6624"
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/bb2f22de-192d-447f-ab58-70d5ba5938d8",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/0170cc7a-44c7-4079-980d-07a4abc39223",
+                    name: "IMG_7661-2"
                 },
                 {
-                    date: "2023-08-26",
-                    location: "Zile/Tokat/Turkey",
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/6efbf510-5534-4fbb-863f-218caaef97f4",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/9072dc5d-96fb-4279-87fd-95bb71b80001",
-                    name: "IMG_6607"
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/540520dc-65ae-4d56-beaf-d02bfc11c069",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/9ef409c5-3820-47e4-9319-64883b2c6411",
+                    name: "IMG_7419_edited"
                 },
                 {
-                    date: "2023-08-21",
-                    location: "Tokat/Turkey",
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/166177cd-aa03-47ec-bb81-04e32123d332",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/33e08f3f-a9ae-41b9-a173-dd466ce81714",
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/c4e0c5d3-bc77-4aa9-85e4-4d827998451d",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/d44d1dd7-1667-46ad-a2a6-32a8bad8c9aa",
+                    name: "IMG_7344_edited"
+                },
+                {
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/2b63fbab-bdb2-4ffb-be36-a61aa8ef4f6f",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/f4db0ef4-e500-4747-bccf-cc629d97dbf6",
+                    name: "IMG_7251_edited"
+                },
+                {
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/2fdb5429-9f21-4c15-800a-2aa0484bf910",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/baf4feb9-39a1-4784-b73e-dbcfd5d870c3",
+                    name: "IMG_6786_edited"
+                },
+                {
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/587c8b9b-2262-459d-9243-30c642817df2",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/be6ebdc0-9ea1-4203-ae35-d5b88d6ba950",
+                    name: "IMG_6734_edited"
+                },
+                {
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/95d1595a-08a7-4f81-aac8-d54e4a90d898",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/4709c158-11a2-4cb1-881f-fd2235873e16",
+                    name: "IMG_6627_edited"
+                },
+                {
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/05fe3b0e-39b6-4c40-ad31-46ff2524ee09",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/a371f14c-d209-41b0-a605-9eaabe879785",
                     name: "IMG_6251"
                 },
                 {
-                    date: "2023-08-21",
-                    location: "Zile/Tokat/Turkey",
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/44927af6-1e24-4105-abf5-7c454ae38aba",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/bd711880-8592-47b8-9b1f-4a9ee4341806",
-                    name: "IMG_6153"
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/59d123c0-770c-4019-b1b6-e0dde2aae28e",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/e5f0dc80-bab8-4f84-b572-ed03ca3da2ab",
+                    name: "IMG_6185"
                 },
                 {
-                    date: "2023-08-15",
-                    location: "Istanbul/Turkey",
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/9f65bef6-1c67-42f1-a948-45bb13c4ac7a",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/cba4fff7-3e97-412d-aa4d-25ae6baa4416",
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/9e281b0f-4b44-4cda-ae9a-0293163d7495",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/3e83b64d-833e-4215-a8bd-bc8ea90090ea",
                     name: "IMG_6090"
                 },
                 {
-                    date: "2023-08-13",
-                    location: "Istanbul/Turkey",
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/ff13b024-a6e9-4acf-b69a-5c571055b81b",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/295786ee-bcd0-4a39-8cf8-e039bf37ce05",
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/8e7826aa-f8b7-4423-a7fe-2bec53452ef8",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/355e9694-0a29-4a39-a742-a44b2ae3f322",
                     name: "IMG_6018"
                 },
                 {
-                    date: "2023-08-12",
-                    location: "Istanbul/Turkey",
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/f77bffa4-f830-4b2d-884b-9dfa8f5fa973",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/12fbba46-5ea0-4b72-9fdb-3d706def0d94",
-                    name: "IMG_5942.jpg"
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/12cc8c8b-7902-4773-9f5c-e37da2c0e0a5",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/a46e89b4-ca47-4158-8d4f-464b1597d983",
+                    name: "IMG_5930"
                 },
                 {
-                    date: "2023-08-12",
-                    location: "Istanbul/Turkey",
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/19af792c-a3c7-459e-a699-e313a637c94e",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/020fe1e3-c0e3-4d05-aee0-d77024ceea6e",
-                    name: "IMG_5930.jpg"
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/4f0f224e-9ab1-4884-838b-9ffb9c0ba2ef",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/0ca52439-4dc8-403d-a9b6-d0afd4130ad3",
+                    name: "IMG_5898"
                 },
                 {
-                    date: "2023-08-08",
-                    location: "Istanbul/Turkey",
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/d9828c7c-46d0-4d85-9a04-d8d60959408c",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/e9c8f801-4fd3-4759-a870-77b12a4dfe7c",
-                    name: "IMG_5898.jpg"
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/49df2336-4ff5-4637-90e4-6d776f82c2c5",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/7fc5bb52-50b2-43e7-a023-79e793b0613b",
+                    name: "IMG_5885"
                 },
                 {
-                    date: "2023-08-08",
-                    location: "Istanbul/Turkey",
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/17399b07-0334-4fb8-9287-5fad3f007a8e",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/e435bb0f-a03f-4133-9244-83263d2ee522",
-                    name: "IMG_5885.jpg"
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/53d4893b-ea6a-46a4-b15f-26784b452655",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/444f3791-d037-4252-b8cd-d78cdbb4936b",
+                    name: "IMG_5866"
                 },
                 {
-                    date: "2023-08-05",
-                    location: "Istanbul/Turkey",
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/2cb6ec7d-2f0e-4fb7-8377-5754dea8ee18",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/2331a628-faae-4eb7-bae8-92a143b2d1d2",
-                    name: "IMG_5866.jpg"
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/691255cd-82ee-4981-aec0-d1c3c22d5e66",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/b6708a36-f7a2-477b-8a87-2b87028f8005",
+                    name: "IMG_5626"
                 },
                 {
-                    date: "2023-08-05",
-                    location: "Istanbul/Turkey",
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/ac1ba254-9773-46f9-b1b9-c01264aad871",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/78d2b4b8-a5d6-4213-a6bf-e62fcb8d29dd",
-                    name: "IMG_5626.jpg"
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/7ece0d00-894a-4285-ae7a-521a84e12a92",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/99b4e591-1b72-4a59-aee6-56e68affdbd5",
+                    name: "IMG_5439"
                 },
                 {
-                    date: "2023-08-05",
-                    location: "Istanbul/Turkey",
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/f0a0cbd8-a0cf-44de-b96a-2f891cf58ef9",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/a2623a55-c99c-4b78-a0ce-42de4267d4d3",
-                    name: "IMG_5439.jpg"
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/b837653a-ac30-4364-8cf4-fe6e47b698fe",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/2f93f844-fc6b-40da-8fe0-5aeba0f8dad8",
+                    name: "IMG_5341"
                 },
                 {
-                    date: "2023-08-04",
-                    location: "Istanbul/Turkey",
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/b3d11597-1feb-4e6f-abf0-05acae077c89",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/9fe9dedd-807f-4000-b511-5b225b4b9e03",
-                    name: "IMG_5341.jpg"
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/da15171b-2f47-45a3-a4b0-9473116e6c2d",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/3f976911-2c3b-47d7-b912-e70a1457a81e",
+                    name: "IMG_5316"
                 },
                 {
-                    date: "2023-08-02",
-                    location: "Istanbul/Turkey",
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/e2ce47da-e256-460d-9233-f82e25d1f189",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/c35651ca-dbe9-4e13-8b10-a60aac07e16a",
-                    name: "IMG_5318.jpg"
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/d80e1772-4a5f-479b-83d6-5d9141a7366a",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/26fece21-980d-4d51-8a47-7a177f37b4b7",
+                    name: "IMG_5268"
                 },
                 {
-                    date: "2023-08-02",
-                    location: "Istanbul/Turkey",
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/60ada12b-0273-40c7-b355-c2b4bfa74a51",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/61eaaad3-0e5e-4d88-848b-4c39a60f8b8a",
-                    name: "IMG_5316.jpg"
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/ba201966-bfab-4709-b583-93b176e27895",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/13a175f3-7636-449d-8284-9b44624e99bd",
+                    name: "IMG_5229-2"
                 },
                 {
-                    date: "2023-08-02",
-                    location: "Istanbul/Turkey",
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/eeba2f1e-4751-4b52-8083-5d5bfedaa9dd",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/addc1fb6-def2-4e5a-862f-8e68f9407f99",
-                    name: "IMG_5308.jpg"
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/c598515e-719c-482b-9738-83645e5b50f4",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/7855882b-ab52-44b9-b7b6-bc879dac2cdb",
+                    name: "IMG_5044"
                 },
                 {
-                    date: "2023-08-02",
-                    location: "Istanbul/Turkey",
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/6f7c010c-f777-4156-bc0c-1b32e73a4b24",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/993e90ac-19c1-4bd9-b769-d9aa7cbf3243",
-                    name: "IMG_5268.jpg"
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/59e6e00a-be32-4edd-8d42-f3f7544b9a5c",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/a2b891c5-c2ce-46e0-a4dd-b18b2781b649",
+                    name: "IMG_4971"
                 },
                 {
-                    date: "2023-08-02",
-                    location: "Istanbul/Turkey",
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/6458207c-c4c4-4a33-a800-f90e9de96666",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/0d7fc86c-cec9-4b78-931e-f23bfe8f91e6",
-                    name: "IMG_5230.jpg"
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/3d125fee-4eee-47be-b02a-7144dfababc1",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/c3c6aa5b-6cbb-4c2a-ad7b-c5a1fd3a0422",
+                    name: "IMG_4940"
                 },
                 {
-                    date: "2023-08-01",
-                    location: "Istanbul/Turkey",
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/beb98e00-0aea-4836-bbb8-b5bc08508933",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/c80f3c03-0387-4d1e-9317-bf099a8fa304",
-                    name: "IMG_5044.jpg"
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/bafeba43-0b72-497c-a4b6-1a0464f977e6",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/b9725256-8ec7-4cdc-b03e-e4350b485ee4",
+                    name: "IMG_4932"
                 },
                 {
-                    date: "2023-08-01",
-                    location: "Istanbul/Turkey",
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/dfcb1599-8844-4b8f-bfab-c8d0001fb24a",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/e75547c6-fa9f-4b42-9286-719d286f1265",
-                    name: "IMG_4971.jpg"
-                },
-                {
-                    date: "2023-08-01",
-                    location: "Istanbul/Turkey",
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/84c5db68-cced-4720-8a74-018ae4e53554",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/fd3d2d5d-dca5-41be-94b6-7d2fb2f4b39d",
-                    name: "IMG_4942.jpg"
-                },
-                {
-                    date: "2023-08-01",
-                    location: "Istanbul/Turkey",
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/45732786-85ee-49a1-bf51-669057766c6e",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/d3066e29-3f72-421b-905f-d43f0684f8bf",
-                    name: "IMG_4940.jpg"
-                },
-                {
-                    date: "2023-08-01",
-                    location: "Istanbul/Turkey",
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/3c2e2fd2-a983-47fd-8870-e53179c9f34e",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/fed8e3b8-19d3-47c1-b996-18f55ee5d495",
-                    name: "IMG_4932.jpg"
-                },
-                {
-                    date: "2023-08-01",
-                    location: "Istanbul/Turkey",
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/5bcb53ec-1ce2-4441-979d-8cdd65714909",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/5adf33bd-2cc4-48a4-b8e5-8af8c4875d2e",
-                    name: "IMG_4913.jpg"
-                },
-                {
-                    date: "2023-07-28",
-                    location: "Istanbul/Turkey",
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/5dde8c84-7990-4aa6-a032-a29480091723",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/441c184e-1cf4-4c5f-83d7-8560e3ee687d",
-                    name: "IMG_4859.jpg"
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/82409bfe-4e18-439d-a828-a43973255627",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/cda91004-b3f7-492b-8ab2-5fe9d6679de6",
+                    name: "IMG_4859"
                 },
             ]
         }
@@ -203,9 +149,9 @@ class Photos extends React.Component{
     popPhoto(photo){
         Swal.fire({
             showConfirmButton: false,
-            width: 1000,
+            width: 1010,
             // text: photo.date + " " + photo.location,
-            html: "<div class='popPhoto'><img class='popPhotoImage' src='"+photo.highAddress+"'></img><div class='popPhotoTexts'><div class='popPhotoText'>"+ photo.date+"</div><div class='popPhotoText'>"+ photo.location+"</div> </div> </div>"
+            html: "<div class='popPhoto'><img class='popPhotoImage' src='"+photo.highAddress+"'></img> </div>"
             // html: "<div class='popPhoto'><img class='popPhotoImage' src='./photo_high/"+photo.name+"'></img></div>"
         })
     }
