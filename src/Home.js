@@ -91,9 +91,6 @@ function Home() {
                     &emsp;Feel free to reach out to me anytime, whether it's about deep learning, art, or any other topic that 
                     piques your interest. I'm always open to meaningful conversations and connections.
                     </div>
-                    <div>
-                    &emsp;<a href="https://github.com/OnurSefa/profile/blob/main/Resume_OnurSefa_Ozcibik.pdf">My Resume</a>
-                    </div>
                 </div>
             </div>
         </div>
