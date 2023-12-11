@@ -6,6 +6,8 @@ class Art extends React.Component{
     constructor(){
         super();
         this.state = {
+            currentPage: 1,
+            itemPerPage: 12,
             arts: [
                 {
                     name: "Güven ve Huzur",
@@ -557,14 +559,48 @@ class Art extends React.Component{
 
     }
 
+    changePageIndex(neuIndex){
+        console.log(neuIndex);
+        this.setState({
+            currentPage: neuIndex
+        })
+    }
+
+    makePageIndex(k){
+        return (
+        <div className="artPageIndex">
+            <div className="artPageIndicesSpace"></div>
+            <div className="pageIndexInstance" onClick={()=>this.changePageIndex(k)}>
+                {
+                    k
+                }
+            </div>
+            <div className="artPageIndicesSpace"></div>
+        </div>
+        )
+    }
+
     render(){
 
-        let currentArts = this.state.arts;
+        const startIndex = (this.state.currentPage - 1) * this.state.itemPerPage;
+        const endIndex = this.state.currentPage * this.state.itemPerPage;
+        const allArts = this.state.arts;
+        let currentArts = allArts.slice(startIndex, endIndex);
+
+        const pageNumbers = []
+        for (let i=1; i<=Math.ceil(allArts.length / this.state.itemPerPage); i++){
+            pageNumbers.push(i);
+        }
 
         return <div className="art">
             <div className="artImages">
                 {
                     currentArts.map( (key) => this.makeArt(key)) 
+                }
+            </div>
+            <div className="artPageIndices">
+                {
+                    pageNumbers.map( (key) => this.makePageIndex(key))
                 }
             </div>
         </div>
