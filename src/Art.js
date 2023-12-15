@@ -6,7 +6,7 @@ class Art extends React.Component{
     constructor(){
         super();
         this.state = {
-            loadImages: true,
+            loadImages: false,
             currentPage: 1,
             itemPerPage: 8,
             arts: [
@@ -550,14 +550,17 @@ class Art extends React.Component{
         })
     }
 
-    makeArt(k){
+    makeArt(k, l){
         return ( <div className="artInstance">
                 <div className="artInstanceImage" onClick={()=>this.popArt(k)}>
-                    <img className="artInstanceImageImage" src={k.source} alt="art image" style={k.direction===0?{transform: "rotate(0deg)"}:k.direction===1?{transform: "rotate(90deg)"}:k.direction===2?{transform: "rotate(180deg)"}:{transform: "rotate(270deg)"}}></img>
+                    <img className="artInstanceImageImage" src={l? "": k.source} alt="art image" style={k.direction===0?{transform: "rotate(0deg)"}:k.direction===1?{transform: "rotate(90deg)"}:k.direction===2?{transform: "rotate(180deg)"}:{transform: "rotate(270deg)"}}></img>
                 </div>
             </div>
         )
+    }
 
+    delay(time) {
+        return new Promise(resolve => setTimeout(resolve, time))
     }
 
     makeEmpty(){
@@ -574,8 +577,9 @@ class Art extends React.Component{
             console.log(neuIndex);
             this.setState({
                 currentPage: neuIndex,
-                loadImages: false,
-            })
+                loadImages: true,
+            });
+            this.delay(10).then(()=> this.setState({loadImages: false}))
         }
     }
 
@@ -594,25 +598,13 @@ class Art extends React.Component{
     }
 
     loadImages(loadImages, currentArts){
-
-        if(loadImages){
-            this.setState({loadImages: false})
-            return (
-                <div className="artImages">
-                    {
-                        currentArts.map((key)=> this.makeEmpty())
-                    }
-                </div>
-            )
-        }else{
-            return (
-                <div className="artImages">
-                    {
-                        currentArts.map((key)=> this.makeArt(key))
-                    }
-                </div>
-            )
-        }
+        return (
+            <div className="artImages">
+                {
+                    currentArts.map((key)=> this.makeArt(key, loadImages))
+                }
+            </div>
+        )
     }
 
     render(){
