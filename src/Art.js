@@ -6,8 +6,9 @@ class Art extends React.Component{
     constructor(){
         super();
         this.state = {
+            loadImages: true,
             currentPage: 1,
-            itemPerPage: 12,
+            itemPerPage: 8,
             arts: [
                 {
                     name: "Güven ve Huzur",
@@ -552,18 +553,30 @@ class Art extends React.Component{
     makeArt(k){
         return ( <div className="artInstance">
                 <div className="artInstanceImage" onClick={()=>this.popArt(k)}>
-                    <img className="artInstanceImageImage" src={k.source} alt="art image" style={k.direction==0?{transform: "rotate(0deg)"}:k.direction==1?{transform: "rotate(90deg)"}:k.direction==2?{transform: "rotate(180deg)"}:{transform: "rotate(270deg)"}}></img>
+                    <img className="artInstanceImageImage" src={k.source} alt="art image" style={k.direction===0?{transform: "rotate(0deg)"}:k.direction===1?{transform: "rotate(90deg)"}:k.direction===2?{transform: "rotate(180deg)"}:{transform: "rotate(270deg)"}}></img>
                 </div>
             </div>
         )
 
     }
 
+    makeEmpty(){
+        return ( <div className="artInstance">
+                <div className="artInstanceImage">
+                    <img className="artInstanceImageImage" src={""} alt="art image"></img>
+                </div>
+            </div>
+        )
+    }
+
     changePageIndex(neuIndex){
-        console.log(neuIndex);
-        this.setState({
-            currentPage: neuIndex
-        })
+        if(neuIndex !== this.state.currentPage){
+            console.log(neuIndex);
+            this.setState({
+                currentPage: neuIndex,
+                loadImages: false,
+            })
+        }
     }
 
     makePageIndex(k){
@@ -580,6 +593,28 @@ class Art extends React.Component{
         )
     }
 
+    loadImages(loadImages, currentArts){
+
+        if(loadImages){
+            this.setState({loadImages: false})
+            return (
+                <div className="artImages">
+                    {
+                        currentArts.map((key)=> this.makeEmpty())
+                    }
+                </div>
+            )
+        }else{
+            return (
+                <div className="artImages">
+                    {
+                        currentArts.map((key)=> this.makeArt(key))
+                    }
+                </div>
+            )
+        }
+    }
+
     render(){
 
         const startIndex = (this.state.currentPage - 1) * this.state.itemPerPage;
@@ -592,12 +627,17 @@ class Art extends React.Component{
             pageNumbers.push(i);
         }
 
+        const loadImages = this.state.loadImages;
+
         return <div className="art">
-            <div className="artImages">
+            {/* <div className="artImages">
                 {
                     currentArts.map( (key) => this.makeArt(key)) 
                 }
-            </div>
+            </div> */}
+            {
+                this.loadImages(loadImages, currentArts)
+            }
             <div className="artPageIndices">
                 {
                     pageNumbers.map( (key) => this.makePageIndex(key))
