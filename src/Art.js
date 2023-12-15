@@ -578,8 +578,8 @@ class Art extends React.Component{
             this.setState({
                 currentPage: neuIndex,
                 loadImages: true,
-            });
-            this.delay(10).then(()=> this.setState({loadImages: false}))
+            }, ()=> this.setState({loadImages: false}));
+            // this.delay(10).then(()=> this.setState({loadImages: false}))
         }
     }
 
