@@ -8,7 +8,7 @@ class Art extends React.Component{
         this.state = {
             loadImages: false,
             currentPage: 1,
-            itemPerPage: 8,
+            itemPerPage: 12,
             arts: [
                 {
                     name: "Güven ve Huzur",
@@ -574,7 +574,6 @@ class Art extends React.Component{
 
     changePageIndex(neuIndex){
         if(neuIndex !== this.state.currentPage){
-            console.log(neuIndex);
             this.setState({
                 currentPage: neuIndex,
                 loadImages: true,

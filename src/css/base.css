@@ -150,6 +150,7 @@ body {
 
 .art {
   width: 100vw;
+  min-height: 93vh;
   background-color: #CEE0DC;
   display: flex;
   flex-direction: column;
@@ -400,10 +401,12 @@ body {
   background-color: #CEE0DC;
   display: flex;
   flex-direction: column;
+  min-height: 93vh;
   align-items: center;
 }
 .photo .photoImages {
   margin: 3vw;
+  margin-bottom: 0vw;
   padding: 1vw;
   border-radius: 2em;
   width: 90vw;
@@ -431,6 +434,30 @@ body {
   width: 33em;
   height: 22em;
   object-fit: contain;
+}
+.photo .photoPageIndices {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1em;
+  margin-bottom: 5em;
+}
+.photo .photoPageIndices .photoPageIndex {
+  display: flex;
+  flex-direction: row;
+}
+.photo .photoPageIndices .photoPageIndex .photoIndexInstance {
+  width: 3em;
+  height: 3em;
+  background-color: #FF9505;
+  background-image: radial-gradient(rgb(255, 149, 5) 30%, rgb(206, 224, 220) 70%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.photo .photoPageIndices .photoPageIndex .photoPageIndicesSpace {
+  width: 0.3em;
 }
 
 /*# sourceMappingURL=base.css.map */

@@ -6,6 +6,9 @@ class Photos extends React.Component{
     constructor(){
         super();
         this.state = {
+            loadImages: false,
+            currentPage: 1,
+            itemPerPage: 6,
             photos: [
                 {
                     lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/1eb6e080-7661-44bb-844e-e85dd6595f42",
@@ -156,21 +159,58 @@ class Photos extends React.Component{
         })
     }
 
-    makePhoto(k){
+    makePhoto(k, l){
         return ( <div className="photoInstance">
             <div className="photoInstanceImage" onClick={() => this.popPhoto(k)}>
-                <img className="photoInstanceImageImage" src={k.lowAddress} alt="photo image"></img>
+                <img className="photoInstanceImageImage" src={l? "": k.lowAddress} alt="photo image"></img>
             </div>
         </div>)
     }
 
+    changePageIndex(neuIndex){
+        if(neuIndex !== this.state.currentPage){
+            this.setState({
+                currentPage: neuIndex,
+                loadImages: true
+            }, ()=>this.setState({loadImages: false}))
+        }
+    }
+    makePageIndex(k){
+        return (
+            <div className="photoPageIndex">
+                <div className="photoPageIndicesSpace"></div>
+                <div className="photoIndexInstance" onClick={()=>this.changePageIndex(k)}>
+                    {
+                        k
+                    }
+                </div>
+                <div className="photoPageIndicesSpace"></div>
+            </div>
+        )
+    }
+
     render(){
-        let currentPhotos = this.state.photos;
+        const startIndex = (this.state.currentPage - 1) * this.state.itemPerPage;
+        const endIndex = this.state.currentPage * this.state.itemPerPage;
+        const allPhotos = this.state.photos;
+        let currentPhotos = allPhotos.slice(startIndex, endIndex);
+
+        const pageNumbers = []
+        for (let i=1; i<=Math.ceil(allPhotos.length / this.state.itemPerPage); i++){
+            pageNumbers.push(i);
+        }
+
+        const loadImages = this.state.loadImages;
 
         return <div className="photo">
             <div className="photoImages">
                 {
-                    currentPhotos.map((key) => this.makePhoto(key))
+                    currentPhotos.map((key) => this.makePhoto(key, loadImages))
+                }
+            </div>
+            <div className="photoPageIndices">
+                {
+                    pageNumbers.map( (key) => this.makePageIndex(key))
                 }
             </div>
         </div>

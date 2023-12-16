@@ -14,10 +14,12 @@
     background-color: #CEE0DC;
     display: flex;
     flex-direction: column;
+    min-height: 93vh;
     // justify-content: center;
     align-items: center;
     .photoImages{
         margin: 3vw;
+        margin-bottom: 0vw;
         padding: 1vw;
         border-radius: 2em;
         width: 90vw;
@@ -46,6 +48,30 @@
                     height: 22em;
                     object-fit: contain;
                 }
+            }
+        }
+    }
+    .photoPageIndices{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 1em;
+        margin-bottom: 5em;
+        .photoPageIndex{
+            display: flex;
+            flex-direction: row;
+            .photoIndexInstance{
+                width: 3em;
+                height: 3em;
+                background-color: #FF9505;
+                background-image: radial-gradient( rgba(255, 149, 5, 1) 30%, rgba(206, 224, 220, 1) 70%);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+            }
+            .photoPageIndicesSpace{
+                width: 0.3em;
             }
         }
     }
