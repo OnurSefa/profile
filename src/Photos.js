@@ -11,139 +11,154 @@ class Photos extends React.Component{
             itemPerPage: 6,
             photos: [
                 {
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/1eb6e080-7661-44bb-844e-e85dd6595f42",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/53460440-6c97-410b-a6cb-8e9c93a00c22",
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/192f0fb3-c559-4fe2-a6c0-68efbbfc6f0d",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/96ff1db7-47e5-40fb-8d00-cecbc4b54bbc",
+                    name: "IMG_0010"
+                },
+                {
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/9c8efb22-1535-40ab-b1e6-cc1c6d56ba7d",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/5c6a8c7c-9d3f-4a36-ac3b-c002c098f3ab",
+                    name: "IMG_0012"
+                },
+                {
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/158aa143-09a8-40fa-8d9c-82b5bab2c5fb",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/c36b1371-1e35-4b66-a90b-8c774f56e39c",
+                    name: "IMG_0015"
+                },
+                {
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/cbc08882-0536-4fd2-bd71-6996062dbc61",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/f690c04a-7f07-4be0-aff1-f7756fce4b1f",
+                    name: "IMG_0016"
+                },
+                {
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/8b283733-a8f2-43ad-bb95-2dc8110f0e53",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/fb66375f-651b-444a-a5a2-3484f72b650a",
                     name: "IMG_4990-2"
                 },
                 {
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/bb2f22de-192d-447f-ab58-70d5ba5938d8",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/0170cc7a-44c7-4079-980d-07a4abc39223",
-                    name: "IMG_7661-2"
-                },
-                {
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/540520dc-65ae-4d56-beaf-d02bfc11c069",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/9ef409c5-3820-47e4-9319-64883b2c6411",
-                    name: "IMG_7419_edited"
-                },
-                {
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/c4e0c5d3-bc77-4aa9-85e4-4d827998451d",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/d44d1dd7-1667-46ad-a2a6-32a8bad8c9aa",
-                    name: "IMG_7344_edited"
-                },
-                {
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/2b63fbab-bdb2-4ffb-be36-a61aa8ef4f6f",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/f4db0ef4-e500-4747-bccf-cc629d97dbf6",
-                    name: "IMG_7251_edited"
-                },
-                {
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/2fdb5429-9f21-4c15-800a-2aa0484bf910",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/baf4feb9-39a1-4784-b73e-dbcfd5d870c3",
-                    name: "IMG_6786_edited"
-                },
-                {
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/587c8b9b-2262-459d-9243-30c642817df2",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/be6ebdc0-9ea1-4203-ae35-d5b88d6ba950",
-                    name: "IMG_6734_edited"
-                },
-                {
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/95d1595a-08a7-4f81-aac8-d54e4a90d898",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/4709c158-11a2-4cb1-881f-fd2235873e16",
-                    name: "IMG_6627_edited"
-                },
-                {
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/05fe3b0e-39b6-4c40-ad31-46ff2524ee09",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/a371f14c-d209-41b0-a605-9eaabe879785",
-                    name: "IMG_6251"
-                },
-                {
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/59d123c0-770c-4019-b1b6-e0dde2aae28e",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/e5f0dc80-bab8-4f84-b572-ed03ca3da2ab",
-                    name: "IMG_6185"
-                },
-                {
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/9e281b0f-4b44-4cda-ae9a-0293163d7495",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/3e83b64d-833e-4215-a8bd-bc8ea90090ea",
-                    name: "IMG_6090"
-                },
-                {
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/8e7826aa-f8b7-4423-a7fe-2bec53452ef8",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/355e9694-0a29-4a39-a742-a44b2ae3f322",
-                    name: "IMG_6018"
-                },
-                {
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/12cc8c8b-7902-4773-9f5c-e37da2c0e0a5",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/a46e89b4-ca47-4158-8d4f-464b1597d983",
-                    name: "IMG_5930"
-                },
-                {
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/4f0f224e-9ab1-4884-838b-9ffb9c0ba2ef",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/0ca52439-4dc8-403d-a9b6-d0afd4130ad3",
-                    name: "IMG_5898"
-                },
-                {
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/49df2336-4ff5-4637-90e4-6d776f82c2c5",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/7fc5bb52-50b2-43e7-a023-79e793b0613b",
-                    name: "IMG_5885"
-                },
-                {
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/53d4893b-ea6a-46a4-b15f-26784b452655",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/444f3791-d037-4252-b8cd-d78cdbb4936b",
-                    name: "IMG_5866"
-                },
-                {
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/691255cd-82ee-4981-aec0-d1c3c22d5e66",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/b6708a36-f7a2-477b-8a87-2b87028f8005",
-                    name: "IMG_5626"
-                },
-                {
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/7ece0d00-894a-4285-ae7a-521a84e12a92",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/99b4e591-1b72-4a59-aee6-56e68affdbd5",
-                    name: "IMG_5439"
-                },
-                {
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/b837653a-ac30-4364-8cf4-fe6e47b698fe",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/2f93f844-fc6b-40da-8fe0-5aeba0f8dad8",
-                    name: "IMG_5341"
-                },
-                {
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/da15171b-2f47-45a3-a4b0-9473116e6c2d",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/3f976911-2c3b-47d7-b912-e70a1457a81e",
-                    name: "IMG_5316"
-                },
-                {
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/d80e1772-4a5f-479b-83d6-5d9141a7366a",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/26fece21-980d-4d51-8a47-7a177f37b4b7",
-                    name: "IMG_5268"
-                },
-                {
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/ba201966-bfab-4709-b583-93b176e27895",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/13a175f3-7636-449d-8284-9b44624e99bd",
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/f5b28404-a169-4fae-bc23-6346b2929b96",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/f5bd35a2-e5ce-4cc1-94e3-7e24c6810c4e",
                     name: "IMG_5229-2"
                 },
                 {
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/c598515e-719c-482b-9738-83645e5b50f4",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/7855882b-ab52-44b9-b7b6-bc879dac2cdb",
-                    name: "IMG_5044"
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/4ff330ae-de2f-49c3-8260-3c568d09fd9b",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/5c47074e-9907-46e4-9445-e2b0706bfea2",
+                    name: "IMG_5341-2"
                 },
                 {
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/59e6e00a-be32-4edd-8d42-f3f7544b9a5c",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/a2b891c5-c2ce-46e0-a4dd-b18b2781b649",
-                    name: "IMG_4971"
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/7d394461-d44b-44c3-9045-b98ff28d6a52",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/3be6d9e4-00d4-4ab2-8eb0-c1fd485b8818",
+                    name: "IMG_5443-3"
                 },
                 {
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/3d125fee-4eee-47be-b02a-7144dfababc1",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/c3c6aa5b-6cbb-4c2a-ad7b-c5a1fd3a0422",
-                    name: "IMG_4940"
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/c2aac72c-3b9d-4758-8d4a-18d4e69b37dc",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/34b5c0af-b312-44fe-b208-2ebba94d20b5",
+                    name: "IMG_5866-2"
                 },
                 {
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/bafeba43-0b72-497c-a4b6-1a0464f977e6",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/b9725256-8ec7-4cdc-b03e-e4350b485ee4",
-                    name: "IMG_4932"
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/31343129-3327-473e-a850-c86353431344",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/2dfb98bc-20da-4e50-9247-370866b4e195",
+                    name: "IMG_5885-2"
                 },
                 {
-                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/82409bfe-4e18-439d-a828-a43973255627",
-                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/cda91004-b3f7-492b-8ab2-5fe9d6679de6",
-                    name: "IMG_4859"
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/47d2cb81-30e2-4b25-826b-2ea9beac0047",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/cf49df88-1f0f-42a9-848a-e50a4535f172",
+                    name: "IMG_5899-2"
+                },
+                {
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/ea22d21f-ccf2-41a7-bfce-f858fc48286c",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/57774cd8-ba13-48be-b056-971cb6c9041d",
+                    name: "IMG_6014-2"
+                },
+                {
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/7c164b99-c960-486e-a310-212490eed8e1",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/0e35ce34-b65b-4d0d-898b-c71a5e22eb2a",
+                    name: "IMG_6185_edited"
+                },
+                {
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/79eac8a2-737b-4c72-8efb-4a9b1e4e7b23",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/96855e13-4333-48a8-b3c4-d6cbbe0c711c",
+                    name: "IMG_6251"
+                },
+                {
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/a77c0591-4d43-4d82-a318-3987c6cd85c9",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/332b2829-6f8e-4d94-9a27-f6f4f8ead851",
+                    name: "IMG_6627_edited"
+                },
+                {
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/47df246a-07d5-411e-8244-77758569c7dd",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/06a58511-b670-4856-a10e-141c580796c8",
+                    name: "IMG_6734_edited"
+                },
+                {
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/cef2a3c4-8959-4790-bb62-f52bbaf7fc1a",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/e3b538ee-1ddc-445c-ac61-41b9c5ed947b",
+                    name: "IMG_6786_edited"
+                },
+                {
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/26e47ee3-5004-4119-932f-5938dbbc5924",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/7f7c08aa-2e80-4d39-9685-393cf41b8407",
+                    name: "IMG_6889-3"
+                },
+                {
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/05a175da-c8fd-43ee-8731-3cd7a47dabd9",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/dc36e6fa-f16b-4ec4-919a-7ef6b75e61e3",
+                    name: "IMG_7251_edited"
+                },
+                {
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/74130f48-1541-46ac-8a4b-43fe06c4855a",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/936f71c5-907a-4d5f-936b-69235d24ba35",
+                    name: "IMG_7344_edited"
+                },
+                {
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/d5d3bdd1-be23-4416-9009-1fa09cf3ecd8",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/aa2d3855-befd-4bc9-8923-e140411e63cc",
+                    name: "IMG_7419_edited"
+                },
+                {
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/133a9b63-be0e-4f2c-97f3-be04f8d3f459",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/c59f44e0-48e0-4ea7-8b2a-17047e9fd217",
+                    name: "IMG_7423-2"
+                },
+                {
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/718b08e1-dae6-4a5b-8202-d65c573319f4",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/dafece72-44d4-494f-bbd2-62a88f8d154d",
+                    name: "IMG_7502-2"
+                },
+                {
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/b27dbb37-85e9-428d-8326-b3c963ee65c3",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/61d6549a-c4f3-4cb7-bc07-5b4c7550b66f",
+                    name: "IMG_7661-2"
+                },
+                {
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/0d8ae6ae-ce33-43d3-bf03-a81f35881f93",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/af1b13fc-2223-4d60-81fe-3bed5ddb577f",
+                    name: "IMG_8101-2"
+                },
+                {
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/235ece77-d1ff-4bab-bfc4-3143e2ebb211",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/658e0a49-5ca3-486d-9cc7-97dc225eb971",
+                    name: "IMG_8107-2"
+                },
+                {
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/55ea3b9b-b171-4736-8304-7143bc6c3fac",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/08b1ff65-7510-46a2-afb9-2817d01f2420",
+                    name: "IMG_8108-2"
+                },
+                {
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/4f6f5780-cf93-403b-b53b-db7fc557c6ec",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/524b18a1-04e8-49dd-a870-501412e9c828",
+                    name: "IMG_8139-2"
+                },
+                {
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/96b267b5-b6ce-486b-83d6-34f326fd0814",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/da0df638-4868-43e7-96d5-80a7f697cff3",
+                    name: "IMG_8194-2"
+                },
+                {
+                    lowAddress: "https://github.com/OnurSefa/profile/assets/12373950/a9d3e7f2-d22b-4bc7-a82b-ff4d62c21e16",
+                    highAddress: "https://github.com/OnurSefa/profile/assets/12373950/d1b7a9f9-52b0-4fc3-935b-272db28fbf16",
+                    name: "IMG_8202-2"
                 },
             ]
         }
