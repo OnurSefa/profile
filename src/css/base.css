@@ -88,6 +88,7 @@ body {
   flex-direction: row;
   width: 100%;
   background-color: #CEE0DC;
+  min-height: 93vh;
 }
 .home .homeLeft {
   margin: 1.5em;

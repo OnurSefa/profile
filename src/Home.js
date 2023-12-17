@@ -51,41 +51,18 @@ function Home() {
                     </div>
                     <div className="homeRightParagraph">
                     &emsp;My academic pursuits align with my passion for artificial intelligence, computer vision, and natural language 
-                    processing. I thrive on tackling intricate deep learning projects, especially those that present a challenge. 
-                    My forte lies in proposing and constructing deep learning models tailored for real-world applications.
+                    processing. I enjoy resolving challenging real-world problems by researching, proposing, and constructing deep 
+                    learning models. Prior to my current position, I actively participated in the NLP Lab and had the privilege of 
+                    auditing the CoLoRs AI Lab at Bogazici University. I believe the only way to build my own personality is unleashing
+                    my full potential in ever means possible. Following this ideom, I improve myself with continuous learning by reading,
+                    implementing, and exploring cutting-edge research papers and adapting these various approaches to my ongoing projects. 
+                    I am eager to pursue further opportunities for skill development in my passionate fields.
                     </div>
                     <div className="homeRightParagraph">
-                    &emsp;Prior to this, I actively participated in the NLP Lab and had the privilege of auditing the CoLoRs AI Lab at 
-                    Bogazici University. This immersive experience allowed me to continually explore, read, and implement cutting-edge 
-                    research papers, enabling me to adapt various approaches to my ongoing projects. I am eager to seize further 
-                    opportunities for skill development in this ever-evolving field.
-                    </div>
-                    <div className="homeRightParagraph">
-                    &emsp;Beyond the realm of technology, my interests extend to the world of art. My journey began in high school and 
-                    has continued to flourish. Within the confines of my apartment, I have curated a studio-like environment for oil 
-                    painting, a medium through which I find peace in expressing my emotions on canvas. Sharing my artwork with others 
-                    brings me great joy, and you can view my creations both on this <a href="/art">platform</a> and through 
-                    my <a href="https://www.instagram.com/artvoke/">Instagram page</a>.
-                    </div>
-                    <div className="homeRightParagraph">
-                    &emsp;Art and technology aside, my life finds its rhythm in the appreciation of various forms of storytelling and 
-                    artistic expression. In cinema, I gravitate towards mind-bending classics such as 'Memento,' 'Predestination,' 
-                    'Mr. Nobody,' and the thought-provoking 'Fight Club.'
-                    </div>
-                    <div className="homeRightParagraph">
-                    &emsp;My life is serenaded by a diverse musical tapestry. From the thunderous riffs of metal and rock to the 
-                    entrancing beats of techno and house, and the timeless elegance of classical piano, music resonates deeply 
-                    within my soul.
-                    </div>
-                    <div className="homeRightParagraph">
-                    &emsp;While the demands of life have afforded me less leisure time for writing, my love for the craft remains 
-                    unwavering, especially when it comes to composing stories and essays in my native Turkish.
-                    </div>
-                    <div className="homeRightParagraph">
-                    &emsp;As summer rolls around, I embrace adventure wholeheartedly. An enthusiastic traveler, I embark on journeys 
-                    that take me far and wide. Long bike rides and passionate camping trips are my preferred modes of exploration. 
-                    More recently, I've discovered a newfound passion in photography, allowing me to capture the beauty and fleeting 
-                    moments of life, preserving them in time to share with others.
+                    &emsp;My art journey began in high school and has continued to bring color to my life. I have curated a studio-like 
+                    environment in my apartment for oil painting, a medium through which I find peace in expressing my emotions on canvas. 
+                    Sharing my artwork with others brings me great joy, and you can view my creations both on this <a href="/art">platform</a> 
+                    and through my <a href="https://www.instagram.com/artvoke/">Instagram page</a>.
                     </div>
                     <div className="homeRightParagraph">
                     &emsp;Feel free to reach out to me anytime, whether it's about deep learning, art, or any other topic that 
