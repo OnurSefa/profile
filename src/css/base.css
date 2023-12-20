@@ -65,13 +65,16 @@ body {
 .navigation .navbar .navbarPages {
   display: flex;
 }
-.navigation .navbar .navbarPages .navbarPage .navbarProfile {
-  text-decoration: none;
-}
-.navigation .navbar .navbarPages .navbarPage .navbarProfile .navbarProfileInner {
+.navigation .navbar .navbarPages .navbarPage .navbarButtonOuter {
   margin-top: 1em;
   margin-left: 1.5em;
   margin-right: 1.5em;
+}
+.navigation .navbar .navbarPages .navbarPage .navbarButtonOuter .navbarProfile {
+  text-decoration: none;
+  border-radius: 2em;
+}
+.navigation .navbar .navbarPages .navbarPage .navbarButtonOuter .navbarProfile .navbarProfileInner {
   display: flex;
   flex-direction: column;
   justify-content: center;

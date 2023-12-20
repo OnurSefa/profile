@@ -7,32 +7,40 @@ function Navigation() {
             <nav className="navbar">
                 <div className="navbarPages">
                     <div className="navbarPage">
-                        <NavLink className="navbarProfile" to="/">
-                            <div className="navbarProfileInner">
-                                Home
-                            </div>
-                        </NavLink>
+                        <div className="navbarButtonOuter">
+                            <NavLink className="navbarProfile" to="/">
+                                <div className="navbarProfileInner">
+                                    Home
+                                </div>
+                            </NavLink>
+                        </div>
                     </div>
                     <div className="navbarPage">
-                        <NavLink className="navbarProfile" to="/art">
-                            <div className="navbarProfileInner">
-                                Art
-                            </div>
-                        </NavLink>
+                        <div className="navbarButtonOuter">
+                            <NavLink className="navbarProfile" to="/art">
+                                <div className="navbarProfileInner">
+                                    Art
+                                </div>
+                            </NavLink>
+                        </div>
                     </div>
                     <div className="navbarPage">
-                        <NavLink className="navbarProfile" to="/projects">
-                            <div className="navbarProfileInner">
-                                Projects
-                            </div>
-                        </NavLink>
+                        <div className="navbarButtonOuter">
+                            <NavLink className="navbarProfile" to="/projects">
+                                <div className="navbarProfileInner">
+                                    Projects
+                                </div>
+                            </NavLink>
+                        </div>
                     </div>
                     <div className="navbarPage">
-                        <NavLink className="navbarProfile" to='/photos'>
-                            <div className="navbarProfileInner">
-                                Photos
-                            </div>
-                        </NavLink>
+                        <div className="navbarButtonOuter">
+                            <NavLink className="navbarProfile" to='/photos'>
+                                <div className="navbarProfileInner">
+                                    Photos
+                                </div>
+                            </NavLink>
+                        </div>
                     </div>
                     {/* <div className="navbarPage">
                         <NavLink className="navbarProfile" to="/writings">
