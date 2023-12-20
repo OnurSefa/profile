@@ -61,8 +61,8 @@ function Home() {
                     <div className="homeRightParagraph">
                     &emsp;My art journey began in high school and has continued to bring color to my life. I have curated a studio-like 
                     environment in my apartment for oil painting, a medium through which I find peace in expressing my emotions on canvas. 
-                    Sharing my artwork with others brings me great joy, and you can view my creations both on this <a href="/art">platform</a> 
-                    and through my <a href="https://www.instagram.com/artvoke/">Instagram page</a>.
+                    Sharing my artwork with others brings me great joy, and you can view my creations both on this <a href="/art">platform</a> and 
+                    through my <a href="https://www.instagram.com/artvoke/">Instagram page</a>.
                     </div>
                     <div className="homeRightParagraph">
                     &emsp;Feel free to reach out to me anytime, whether it's about deep learning, art, or any other topic that 
