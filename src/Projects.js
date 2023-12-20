@@ -8,6 +8,7 @@ class Projects extends React.Component{
             projects: [
                 {
                     "title": "Generating Art using Generative Adversarial Networks",
+                    "date": "June 2022",
                     "description": "This project was my graduation project that lasted for two semesters. I have worked with my colleague. We used VQGAN and CLIP models to achieve good results. I have reimplemented the loss function to locate different text prompts to different locations on the generated images.",
                     "redirect": "/projects/generatingart",
                     "image": "https://user-images.githubusercontent.com/12373950/202875753-61866f25-7cfa-45c1-b1db-3a6545b8379f.png"
@@ -20,36 +21,42 @@ class Projects extends React.Component{
                 // },
                 {
                     "title": "Tax Office ID Extraction from Expense Documents",
+                    "date": "January 2022",
                     "description": "It is crucial to extract the Tax ID values from expense documents because they define the related tax offices. I used the autoencoder, RNN, and attention mechanism.",
                     "redirect": "/projects/taxid",
                     "image": "https://user-images.githubusercontent.com/12373950/202869526-f48e8411-f27b-4a93-b72a-44508d19133c.png"
                 },   
                 {
                     "title": "Open Domain End-to-End Question Answering System built on BERT",
+                    "date": "June 2022",
                     "description": "The project includes a document retriever and document reader modules to answer questions using its open domain. The retriever selects the correct paragraphs and then the reader extracts the correct answers from selected sentences.",
                     "redirect": "/projects/questionanswer",
                     "image": "https://user-images.githubusercontent.com/12373950/202878698-f2145c0f-7b53-435d-8603-5250ec9330c9.png"
                 },
                 {
                     "title": "Data Visualization using PCA and t-SNE",
+                    "date": "December 2021",
                     "description": "I used dimensionality reduction techniques on the MNIST dataset to compare the results. Visualization of multidimensional data on a 2D plane is not an easy task but the mentioned methods achieve good results. ",
                     "redirect": "/projects/pca",
                     "image": "https://user-images.githubusercontent.com/12373950/202245488-d3e69941-4c52-44d3-98e4-cdc7478bae65.png"
                 },
                 {
                     "title": "Detection of Expense Documents' Payment Type",
+                    "date": "September 2022",
                     "description": "The payment method of an expense document is crucial information for companies that offer company credit cards for their employees. The project aims to detect the payment type using photographs of expense documents.",
                     "redirect": "/projects/paymenttype",
                     "image": "https://user-images.githubusercontent.com/12373950/202870359-1f672a85-319f-4103-ba5e-82c7875592c5.png"
                 },             
                 {
                     "title": "Credit Card Number Extraction from Expense Documents",
+                    "date": "October 2022",
                     "description": "Companies should pay the expenses of the employees only if the employee does not pay the bill with a company credit card. The project aims to detect the 4 last digits of the used credit card using photographs of expense documents.",
                     "redirect": "/projects/creditcard",
                     "image": "https://user-images.githubusercontent.com/12373950/202870647-3893771d-c014-4692-b72a-935cdda328a4.png"
                 },
                 {
                     "title": "Inspectation of Outlier Detection Methodologies",
+                    "date": "November 2021",
                     "description": "This project aims to display the main differences between two outlier detection methods: the Isolation Forest Model and the Local Outlier Factor. It also tries to give intuition about both methods.",
                     "redirect": "/projects/outlier",
                     "image": "https://user-images.githubusercontent.com/12373950/202242561-d6078a8b-5c2e-4f5f-84a9-c0d38c2fd6e7.png"
@@ -62,6 +69,7 @@ class Projects extends React.Component{
                 // },
                 {
                     "title": "Expense Document Classification",
+                    "date": "August 2023",
                     "description": "There are several invoice types and detection of them highly affects posterior operations.",
                     "redirect": "/projects/invoicetype",
                     "image": "https://user-images.githubusercontent.com/12373950/202871487-90a00df6-0dd0-49b4-a8d0-a436955a43ee.png"
@@ -185,6 +193,9 @@ class Projects extends React.Component{
             <div className='projectDescriptionSection'>
                 <div className="projectTitle">
                     <b>{k.title}</b>
+                </div>
+                <div className="projectDate">
+                    {k.date}
                 </div>
                 <div className="projectDescription">
                     {k.description}
