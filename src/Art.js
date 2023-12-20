@@ -480,7 +480,7 @@ class Art extends React.Component{
                     direction: 0
                 },
                 {
-                    name: "Red Drean",
+                    name: "Red Dream",
                     technique: 0,
                     source: "https://user-images.githubusercontent.com/91468534/200664612-6c0f3f12-a741-4a3d-aed4-6c7e1b9bd877.png",
                     direction: 0
