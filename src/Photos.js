@@ -184,6 +184,7 @@ class Photos extends React.Component{
 
     changePageIndex(neuIndex){
         if(neuIndex !== this.state.currentPage){
+            window.scrollTo({top: 0, left:0, behavior: 'smooth'});
             this.setState({
                 currentPage: neuIndex,
                 loadImages: true
