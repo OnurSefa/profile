@@ -11,18 +11,32 @@ class Art extends React.Component{
             itemPerPage: 12,
             arts: [
                 {
-                    sourceMini: "https://github.com/OnurSefa/profile/assets/12373950/1eaaf056-54ef-4f80-8fac-ec1c156423e8",
-                    sourceMidi: "https://github.com/OnurSefa/profile/assets/12373950/f9f58679-d9f9-4ec5-8e85-118a862c6972",
+                    sourceMini: "https://github.com/OnurSefa/profile/assets/12373950/739539d1-c9d8-4cfa-ae1a-59029ab026d9",
+                    sourceMidi: "https://github.com/OnurSefa/profile/assets/12373950/0372122a-d1dc-4d0e-9182-44a12576c369",
+                    direction: 0,
+                    technique: 0,
+                    name: "Bilmem"
+                },
+                {
+                    sourceMini: "https://github.com/OnurSefa/profile/assets/12373950/1829fd28-b389-43ea-bdb7-1a30bc8ec624",
+                    sourceMidi: "https://github.com/OnurSefa/profile/assets/12373950/f2a16596-80a3-4602-82a6-31160b7ac909",
+                    direction: 0,
+                    technique: 0,
+                    name: "Bu Bendim, Bu Sensin, Bu Bir Insan"
+                },
+                {
+                    sourceMini: "https://github.com/OnurSefa/profile/assets/12373950/c3e3f7b8-779c-4761-806f-5df5473ec28d",
+                    sourceMidi: "https://github.com/OnurSefa/profile/assets/12373950/bc35d196-20db-4b78-8acb-c2c74b963174",
                     direction: 0,
                     technique: 0,
                     name: "The Summit"
                 },
                 {
-                    sourceMini: "https://github.com/OnurSefa/profile/assets/12373950/746bc62d-a7e2-4a87-b541-a2fb8a827367",
-                    sourceMidi: "https://github.com/OnurSefa/profile/assets/12373950/20e075e0-145a-4899-8d41-84fca7e0e1ea",
+                    sourceMini: "https://github.com/OnurSefa/profile/assets/12373950/4530404b-88c5-48e6-98ec-a7aa36507598",
+                    sourceMidi: "https://github.com/OnurSefa/profile/assets/12373950/48b9a2de-f6d3-415a-8a68-9c54c0872590",
                     direction: 0,
                     technique: 0,
-                    name: "Bu Bendim, Bu Sensin, Bu Bir Insan"
+                    name: "First Intention"
                 },
                 {
                     name: "Güven ve Huzur",
@@ -165,11 +179,25 @@ class Art extends React.Component{
                     direction: 0
                 },
                 {
+                    name: "Dalgin",
+                    technique: 0,
+                    sourceMidi: "https://user-images.githubusercontent.com/91468534/200664439-518f021e-8fdd-433f-951c-6a2614e75e6a.png",
+                    sourceMini: "https://user-images.githubusercontent.com/91468534/200664439-518f021e-8fdd-433f-951c-6a2614e75e6a.png",
+                    direction: 0
+                },
+                {
                     name: "A Symbol",
                     technique: 0,
                     sourceMidi: "https://user-images.githubusercontent.com/91468534/200664387-07cc616b-bb47-4cf2-8745-9dcaa323c927.png",
                     sourceMini: "https://user-images.githubusercontent.com/91468534/200664387-07cc616b-bb47-4cf2-8745-9dcaa323c927.png",
                     direction: 0
+                },
+                {
+                    sourceMini: "https://github.com/OnurSefa/profile/assets/12373950/a02924a0-0287-478f-93b0-361a5b7e6a51",
+                    sourceMidi: "https://github.com/OnurSefa/profile/assets/12373950/78507bbb-fa54-4a1f-b6cf-b8c78a294e03",
+                    direction: 0,
+                    technique: 0,
+                    name: "I need a break down"
                 },
                 {
                     name: "Huzurun Boyundurugu",
@@ -246,13 +274,6 @@ class Art extends React.Component{
                     technique: 4,
                     sourceMidi: "https://user-images.githubusercontent.com/91468534/200664431-d8119e5a-ed64-4892-8a65-738fecb56590.png",
                     sourceMini: "https://user-images.githubusercontent.com/91468534/200664431-d8119e5a-ed64-4892-8a65-738fecb56590.png",
-                    direction: 0
-                },
-                {
-                    name: "Dalgin",
-                    technique: 0,
-                    sourceMidi: "https://user-images.githubusercontent.com/91468534/200664439-518f021e-8fdd-433f-951c-6a2614e75e6a.png",
-                    sourceMini: "https://user-images.githubusercontent.com/91468534/200664439-518f021e-8fdd-433f-951c-6a2614e75e6a.png",
                     direction: 0
                 },
                 {
