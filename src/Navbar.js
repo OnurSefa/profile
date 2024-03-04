@@ -42,6 +42,15 @@ function Navigation() {
                             </NavLink>
                         </div>
                     </div>
+                    <div className="navbarPage">
+                        <div className="navbarButtonOuter">
+                            <NavLink className="navbarProfile" to='/certificates'>
+                                <div className="navbarProfileInner">
+                                    Certificates
+                                </div>
+                            </NavLink>
+                        </div>
+                    </div>
                     {/* <div className="navbarPage">
                         <NavLink className="navbarProfile" to="/writings">
                             <div className="navbarProfileInner">

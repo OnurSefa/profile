@@ -11,11 +11,25 @@ class Art extends React.Component{
             itemPerPage: 12,
             arts: [
                 {
+                    sourceMini: "https://github.com/OnurSefa/profile/assets/12373950/c0956bfe-4c42-49a2-8d47-ee19dba8652c",
+                    sourceMidi: "https://github.com/OnurSefa/profile/assets/12373950/23ee0af0-18dc-4b8f-bb05-3b95e4997c5c",
+                    direction: 0,
+                    technique: 0,
+                    name: "Kacis"
+                },
+                {
                     sourceMini: "https://github.com/OnurSefa/profile/assets/12373950/739539d1-c9d8-4cfa-ae1a-59029ab026d9",
                     sourceMidi: "https://github.com/OnurSefa/profile/assets/12373950/0372122a-d1dc-4d0e-9182-44a12576c369",
                     direction: 0,
                     technique: 0,
                     name: "Bilmem"
+                },
+                {
+                    name: "Daydream",
+                    technique: 0,
+                    sourceMidi: "https://user-images.githubusercontent.com/91468534/200664433-fae042eb-97ae-41c4-ad04-3ec3c70dd412.png",
+                    sourceMini: "https://user-images.githubusercontent.com/91468534/200664433-fae042eb-97ae-41c4-ad04-3ec3c70dd412.png",
+                    direction: 0
                 },
                 {
                     sourceMini: "https://github.com/OnurSefa/profile/assets/12373950/1829fd28-b389-43ea-bdb7-1a30bc8ec624",
@@ -30,13 +44,6 @@ class Art extends React.Component{
                     direction: 0,
                     technique: 0,
                     name: "The Summit"
-                },
-                {
-                    sourceMini: "https://github.com/OnurSefa/profile/assets/12373950/4530404b-88c5-48e6-98ec-a7aa36507598",
-                    sourceMidi: "https://github.com/OnurSefa/profile/assets/12373950/48b9a2de-f6d3-415a-8a68-9c54c0872590",
-                    direction: 0,
-                    technique: 0,
-                    name: "First Intention"
                 },
                 {
                     name: "Güven ve Huzur",
@@ -57,13 +64,6 @@ class Art extends React.Component{
                     technique: 0,
                     sourceMidi: "https://user-images.githubusercontent.com/91468534/200664412-8898d1e8-b0fb-4c4a-8741-f3cc39e7950f.png",
                     sourceMini: "https://user-images.githubusercontent.com/91468534/200664412-8898d1e8-b0fb-4c4a-8741-f3cc39e7950f.png",
-                    direction: 0
-                },
-                {
-                    name: "Daydream",
-                    technique: 0,
-                    sourceMidi: "https://user-images.githubusercontent.com/91468534/200664433-fae042eb-97ae-41c4-ad04-3ec3c70dd412.png",
-                    sourceMini: "https://user-images.githubusercontent.com/91468534/200664433-fae042eb-97ae-41c4-ad04-3ec3c70dd412.png",
                     direction: 0
                 },
                 {
@@ -235,6 +235,13 @@ class Art extends React.Component{
                     direction: 0
                 },
                 {
+                    sourceMini: "https://github.com/OnurSefa/profile/assets/12373950/4530404b-88c5-48e6-98ec-a7aa36507598",
+                    sourceMidi: "https://github.com/OnurSefa/profile/assets/12373950/48b9a2de-f6d3-415a-8a68-9c54c0872590",
+                    direction: 0,
+                    technique: 0,
+                    name: "First Intention"
+                },
+                {
                     name: "The Drummer",
                     technique: 1,
                     sourceMidi: "https://user-images.githubusercontent.com/91468534/200664408-809d5367-f9c0-451a-bf6a-64809dd5671a.png",
@@ -324,6 +331,13 @@ class Art extends React.Component{
                     sourceMidi: "https://user-images.githubusercontent.com/91468534/200664468-3f8cf784-73de-4bff-8a18-af04884cbe22.png",
                     sourceMini: "https://user-images.githubusercontent.com/91468534/200664468-3f8cf784-73de-4bff-8a18-af04884cbe22.png",
                     direction: 0
+                },
+                {
+                    sourceMini: "https://github.com/OnurSefa/profile/assets/12373950/b0092a9c-027a-407a-ae03-4828bc90c07f",
+                    sourceMidi: "https://github.com/OnurSefa/profile/assets/12373950/5950a4e3-a3ce-465e-8e9a-8245d454282f",
+                    direction: 0,
+                    technique: 0,
+                    name: "The Dawn"
                 },
                 {
                     name: "Gokyuzu ve Yapraklar",

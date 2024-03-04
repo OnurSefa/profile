@@ -1,0 +1,70 @@
+
+
+.certificatesPage{
+    width: 100vw;
+    min-height: 93vh;
+    background-color: #CEE0DC;
+    display: flex;
+    flex-direction: column;
+    .certificatesPane{
+        margin: 3vw;
+        padding: 2vw;
+        border-radius: 2em;
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        background-color: #EAF1EA;
+        justify-content: center;
+        .cHolder{
+            display: flex;
+            flex-direction: row;
+            padding: 1em;
+            background-color: #CEE0DC;
+            border-radius: 2em;
+            margin: 1em;
+            .cImageHolder{
+                .cImage{
+                    width: 30vw;
+                    object-fit: contain;
+                    border-top-left-radius: 1em;
+                    border-bottom-left-radius: 1em;
+                }
+            }
+            .cDescHolder{
+                margin-left: 2em;
+                width: 40vw;
+                display: flex;
+                flex-direction: column;
+                padding-top: 0.5em;
+                .cHeading{
+                    font-size: 22px;
+                }
+                .cSkills{
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: left;
+                    font-size: 13px;
+                    .cSkill{
+                        padding: 0.3em;
+                        margin: 0.1em;
+                        padding-top: 0.1em;
+                        padding-bottom: 0.1em;
+                        background-color: #EAF1EA;
+                        border-radius: 1em;
+                    }
+                }
+                .cProvider{
+
+                }
+                .cDate{
+                    
+                }
+                .cCredential{
+                    font-size: 12px;
+                }
+            }
+
+        }
+    }
+}
