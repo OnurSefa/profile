@@ -7,6 +7,13 @@ class Projects extends React.Component{
         this.state = {
             projects: [
                 {
+                    "title": "U-Net Monocular Relative Depth Estimation",
+                    "date": "September 2024",
+                    "description": "I have adapted DenseDepth methodology to extract depth maps from images.",
+                    "redirect": "/projects/depth",
+                    "image": "https://onur-sefa-bucket.s3.eu-west-1.amazonaws.com/milestone+(1).png"
+                },
+                {
                     "title": "Generating Art using Generative Adversarial Networks",
                     "date": "June 2022",
                     "description": "This project was my graduation project that lasted for two semesters. I have worked with my colleague. We used VQGAN and CLIP models to achieve good results. I have reimplemented the loss function to locate different text prompts to different locations on the generated images.",

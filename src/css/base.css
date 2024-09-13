@@ -400,6 +400,10 @@ body {
 .instanceBackground .instance .instanceImage .instanceImageDescription {
   max-width: 50em;
 }
+.instanceBackground .instanceList {
+  margin-bottom: 0em;
+  margin-top: 0em;
+}
 
 .popPhoto .popPhotoImage {
   height: 35em;

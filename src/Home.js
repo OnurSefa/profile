@@ -6,7 +6,7 @@ function Home() {
         <div className="home">
             <div className="homeLeft">
                 <div className="profileImage">
-                    <img className="profileImageImage" src="https://user-images.githubusercontent.com/12373950/202808122-f57c8245-8abf-4893-987b-f1a2eea8e15e.png" alt="profile image"></img>
+                    <img className="profileImageImage" src={`${process.env.PUBLIC_URL}/me.jpg`} alt="profile image"></img>
                 </div>
                 
                 <div className="contactHolder">
@@ -44,10 +44,10 @@ function Home() {
             <div className="homeRight">
                 <div className="homeRightText">
                     <div className="homeRightParagraph">
-                    &emsp;I am Onur Sefa Ozcibik, a graduate of Bogazici University with a Bachelor of Science (B.S.) in the Department 
-                    of Computer Engineering, which I completed in June 2022. Bogazici University stands as one of Turkey's foremost 
-                    institutions in this field, and the experiences I gained during my time there were invaluable. I firmly believe that 
-                    a bright future lies ahead.
+                    &emsp;I am Onur Sefa Ozcibik, a master's degree student in Computer Engineering at Bogazici University. I also graduated
+                    from the same department at June 2022. Bogazici University stands as one of Turkey's foremost 
+                    institutions in this field which is why I chose to pursue my education in there. Guidance of my professors and 
+                    experience I gain are priceless.
                     </div>
                     <div className="homeRightParagraph">
                     &emsp;My academic pursuits align with my passion for artificial intelligence, computer vision, and natural language 

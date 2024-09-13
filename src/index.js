@@ -38,6 +38,7 @@ import Vkn from "./projects/Vkn";
 import Watchdog from "./projects/Watchdog";
 import Photos from "./Photos";
 import Certificates from './Certificates';
+import Depth from './projects/Depth';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -79,6 +80,7 @@ root.render(
       <Route path="/projects/questionanswer" element={<Question></Question>}></Route>
       <Route path="/projects/taxid" element={<Vkn></Vkn>}></Route>
       <Route path="/projects/pca" element={<Visualization></Visualization>}></Route>
+      <Route path="/projects/depth" element={<Depth></Depth>}></Route>
 
     </Routes>
   </Router>
